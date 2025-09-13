@@ -1,0 +1,125 @@
+{
+  "id": "f0bdd685-77bc-4a72-ba5f-6ccb8687ee1a",
+  "created_at": "2025-09-09T15:30:49.092261Z",
+  "meta": {
+    "source_file": "chatgpt.har",
+    "n_entries": 53
+  },
+  "analysis": {
+    "total_requests": 53,
+    "total_bytes": 240623,
+    "avg_time_ms": 631.8278301913826,
+    "top_domains": {
+      "chatgpt.com": 46,
+      "ab.chatgpt.com": 4,
+      "realtime.chatgpt.com": 3
+    },
+    "status_breakdown": {
+      "200": 48,
+      "202": 4,
+      "204": 1
+    },
+    "method_breakdown": {
+      "POST": 35,
+      "GET": 18
+    },
+    "slowest_requests": [
+      {
+        "url": "https://chatgpt.com/backend-api/sentinel/chat-requirements",
+        "time_ms": 2376.162000000477,
+        "status": 200
+      },
+      {
+        "url": "https://chatgpt.com/backend-api/connectors/check?connector_names=gdrive&connector_names=o365_personal&connector_names=o365_business",
+        "time_ms": 2059.0010001324117,
+        "status": 200
+      },
+      {
+        "url": "https://chatgpt.com/backend-api/conversations?offset=0&limit=28&order=updated&is_archived=false&is_starred=false",
+        "time_ms": 1843.1329999584705,
+        "status": 200
+      },
+      {
+        "url": "https://chatgpt.com/backend-api/conversation/68bedbe6-d574-8321-a716-654076c8e938/stream_status",
+        "time_ms": 1470.9850000217557,
+        "status": 200
+      },
+      {
+        "url": "https://realtime.chatgpt.com/v1/vp/status",
+        "time_ms": 1442.9289999224693,
+        "status": 200
+      }
+    ],
+    "largest_responses": [
+      {
+        "url": "https://chatgpt.com/backend-api/conversation/68bedbe6-d574-8321-a716-654076c8e938",
+        "responseSize": 187648,
+        "status": 200
+      },
+      {
+        "url": "https://chatgpt.com/backend-api/sentinel/chat-requirements",
+        "responseSize": 17434,
+        "status": 200
+      },
+      {
+        "url": "https://chatgpt.com/backend-api/conversations?offset=0&limit=28&order=updated&is_archived=false&is_starred=false",
+        "responseSize": 14443,
+        "status": 200
+      },
+      {
+        "url": "https://chatgpt.com/backend-api/system_hints",
+        "responseSize": 13498,
+        "status": 200
+      },
+      {
+        "url": "https://chatgpt.com/backend-api/settings/user",
+        "responseSize": 3120,
+        "status": 200
+      }
+    ],
+    "avg_timings": {
+      "dns_ms": -0.9616037735849057,
+      "connect_ms": 2.0547924528301884,
+      "send_ms": 6.9427735849056615,
+      "wait_ms": 586.6420754651441,
+      "receive_ms": 14.331264153368911
+    },
+    "https_ratio": 1.0,
+    "requests_over_time": {
+      "2025-09-08 14:35:00+00:00": 2,
+      "2025-09-08 14:36:00+00:00": 51
+    },
+    "content_types": {
+      "application/json": 48,
+      "x-unknown": 3,
+      "text/event-stream": 1,
+      "text/plain": 1
+    },
+    "errors": {},
+    "redirects": [],
+    "caching": {
+      "cacheable": 48,
+      "hits_304": 0,
+      "misses_200": 48,
+      "hit_ratio": 0.0
+    },
+    "compression": {
+      "compressible_requests": 50,
+      "compression_ratio": 0.9433962264150944
+    },
+    "performance": {
+      "avg_ttfb_ms": 586.6420754651441,
+      "est_page_load_ms": 631.8278301913826
+    },
+    "third_party_requests": {
+      "ab.chatgpt.com": 4,
+      "realtime.chatgpt.com": 3
+    },
+    "api_requests": {
+      "total_api_requests": 48,
+      "passed": 48,
+      "failed": 0,
+      "failures": []
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "id": "45635b9e-6a20-44f0-a7ba-8c67b2255de3",
+  "created_at": "2025-09-09T14:39:44.925756Z",
+  "meta": {
+    "source_file": "gfg_large.har",
+    "n_entries": 223
+  },
+  "analysis": {
+    "total_requests": 223,
+    "total_bytes": 9575741,
+    "avg_time_ms": 356.20548430491266,
+    "top_domains": {
+      "www.geeksforgeeks.org": 44,
+      "cdnvideos.geeksforgeeks.org": 29,
+      "pagead2.googlesyndication.com": 22,
+      "fundingchoicesmessages.google.com": 14,
+      "utilapi.geeksforgeeks.org": 13,
+      "analytics.google.com": 11,
+      "practiceapi.geeksforgeeks.org": 10,
+      "y.clarity.ms": 7,
+      "securepubads.g.doubleclick.net": 6,
+      "notificationsapi.geeksforgeeks.org": 5
+    },
+    "status_breakdown": {
+      "200": 109,
+      "204": 59,
+      "403": 39,
+      "0": 10,
+      "304": 3,
+      "302": 2,
+      "206": 1
+    },
+    "method_breakdown": {
+      "GET": 142,
+      "POST": 78,
+      "HEAD": 2,
+      "PUT": 1
+    },
+    "slowest_requests": [
+      {
+        "url": "https://id5-sync.com/api/config/prebid",
+        "time_ms": 2326.3149999999578,
+        "status": 200
+      },
+      {
+        "url": "https://artechnology-prebid.attekmi.com/pbjs",
+        "time_ms": 2114.2330000002403,
+        "status": 0
+      },
+      {
+        "url": "https://ads.servenobid.com/adreq?cb=6836",
+        "time_ms": 2111.210999999912,
+        "status": 0
+      },
+      {
+        "url": "https://ittr-asia.eskimi.com/prebidjs",
+        "time_ms": 2093.446999999742,
+        "status": 0
+      },
+      {
+        "url": "https://ittr-asia.eskimi.com/prebidjs",
+        "time_ms": 2091.327000000092,
+        "status": 0
+      }
+    ],
+    "largest_responses": [
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00002.ts",
+        "responseSize": 707456,
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00002.ts",
+        "responseSize": 707456,
+        "status": 200
+      },
+      {
+        "url": "https://www.googletagservices.com/agrp/prod/model_person_country_code_IN_person_region_code_42616e67616c6f7265.json",
+        "responseSize": 656056,
+        "status": 200
+      },
+      {
+        "url": "https://www.googletagservices.com/agrp/prod/model_person_country_code_IN_person_region_code_42616e67616c6f7265.json",
+        "responseSize": 656056,
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00006.ts",
+        "responseSize": 644096,
+        "status": 200
+      }
+    ],
+    "avg_timings": {
+      "dns_ms": 4.673112107623319,
+      "connect_ms": 48.6124932735426,
+      "send_ms": 0.5380582959641254,
+      "wait_ms": 210.99812107623114,
+      "receive_ms": 17.971336322867426
+    },
+    "https_ratio": 1.0,
+    "requests_over_time": {
+      "2025-09-08T17:45:00+00:00": 112,
+      "2025-09-08T17:46:00+00:00": 111
+    },
+    "content_types": {
+      "text/html": 62,
+      "application/json": 60,
+      "x-unknown": 23,
+      "text/plain": 20,
+      "image/gif": 20,
+      "video/mp2t": 12,
+      "text/css": 8,
+      "application/vnd.apple.mpegurl": 7,
+      "binary/octet-stream": 4,
+      "application/javascript": 2,
+      "text/javascript": 2,
+      "text/vtt": 1,
+      "application/pgp-keys": 1,
+      "text/vnd.trolltech.linguist": 1
+    },
+    "errors": {
+      "403": 39
+    },
+    "redirects": [
+      {
+        "url": "https://gumi.criteo.com/sid/json?origin=publishertagids&domain=geeksforgeeks.org&sn=ChromeSyncframe&so=3&topUrl=www.geeksforgeeks.org&bundle=hS0ASV9ZVG5qNHAlMkZUJTJCVUs4aFAlMkZRRXU5aWpCRG1OckI2eW5zOU1ySTNtaDF2a1ZlbjlvTWRwNUpqJTJGbE9PMDNiUW8lMkYlMkJjRVFOUUxDelBCUEhMSzN6dXBzeE5SVnFGZzlQN0RYbDY5SnUyb2piME40dUFvOGJHeWdqY1RwajQxcW5GTXJmNjN0U0o1VDVzeSUyQmNkNXdCUTNCN0pBMkIzQTlnMlR0TFUyYTBFN2c1bUt6USUzRA&topicsavail=1&fledgeavail=1",
+        "status": 302
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-SZ454CLTZM&gtm=45je5940v885296220z8838943698za200zb838943698zd838943698&_p=1757353529667&_gaz=1&gcs=G111&gcd=13v3v3_3t5l1&npa=0&dma=0&cid=2131079068.1645179472&ecid=1401907474&ul=en-in&sr=1249x703&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=a&_prs=ok&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105426769~105426771&sid=1757353530&sct=27&seg=0&dl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcourses%2Fdsa-self-paced&dr=https%3A%2F%2Fwww.geeksforgeeks.org%2Fdsa%2Fdsa-tutorial-learn-data-structures-and-algorithms%2F&dt=Data%20Structures%20and%20Algorithms%20-%20Self%20Paced%20%5BOnline%20Course%5D&_tu=CA&en=page_view&_ss=1&_c=1&tfd=1709",
+        "status": 302
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927.key",
+        "status": 304
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927.key",
+        "status": 304
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927.key",
+        "status": 304
+      }
+    ],
+    "caching": {
+      "cacheable": 112,
+      "hits_304": 3,
+      "misses_200": 109,
+      "hit_ratio": 0.026785714285714284
+    },
+    "compression": {
+      "compressible_requests": 156,
+      "compression_ratio": 0.6995515695067265
+    },
+    "performance": {
+      "avg_ttfb_ms": 210.99812107623114,
+      "est_page_load_ms": 356.20548430491266
+    },
+    "third_party_requests": {
+      "cdnvideos.geeksforgeeks.org": 29,
+      "pagead2.googlesyndication.com": 22,
+      "fundingchoicesmessages.google.com": 14,
+      "utilapi.geeksforgeeks.org": 13,
+      "analytics.google.com": 11,
+      "practiceapi.geeksforgeeks.org": 10,
+      "y.clarity.ms": 7,
+      "securepubads.g.doubleclick.net": 6,
+      "notificationsapi.geeksforgeeks.org": 5,
+      "authapi.geeksforgeeks.org": 4,
+      "ittr-asia.eskimi.com": 4,
+      "px.ads.linkedin.com": 4,
+      "c.amazon-adsystem.com": 4,
+      "id5-sync.com": 4,
+      "rtb.linkedin.com": 3,
+      "assets.geeksforgeeks.org": 3,
+      "token.rubiconproject.com": 3,
+      "image6.pubmatic.com": 2,
+      "cdn.jsdelivr.net": 2,
+      "ipv6.6sc.co": 2,
+      "www.google-analytics.com": 2,
+      "lb.eu-1-id5-sync.com": 2,
+      "www.googletagservices.com": 2,
+      "adapi.geeksforgeeks.org": 2,
+      "www.google.com": 2,
+      "aax.amazon-adsystem.com": 1,
+      "prebid.adnxs.com": 1,
+      "tps-dn-ae1.doubleverify.com": 1,
+      "lbs.eu-1-id5-sync.com": 1,
+      "rtb-us-west.linkedin.com": 1,
+      "ep1.adtrafficquality.google": 1,
+      "hbopenbid.pubmatic.com": 1,
+      "htlb.casalemedia.com": 1,
+      "rtb.openx.net": 1,
+      "gumi.criteo.com": 1,
+      "direct.adsrvr.org": 1,
+      "prod.uidapi.com": 1,
+      "ads.servenobid.com": 1,
+      "artechnology-prebid.attekmi.com": 1,
+      "communityapi.geeksforgeeks.org": 1,
+      "mug.criteo.com": 1,
+      "ib.adnxs.com": 1
+    },
+    "api_requests": {
+      "total_api_requests": 64,
+      "passed": 64,
+      "failed": 0,
+      "failures": []
+    }
+  }
+}

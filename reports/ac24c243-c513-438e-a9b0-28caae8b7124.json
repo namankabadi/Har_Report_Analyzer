@@ -1,0 +1,100 @@
+{
+  "id": "ac24c243-c513-438e-a9b0-28caae8b7124",
+  "created_at": "2025-09-09T14:03:31.970210Z",
+  "meta": {
+    "source_file": "gfg.har",
+    "n_entries": 67
+  },
+  "analysis": {
+    "total_requests": 67,
+    "total_bytes": 438386,
+    "avg_time_ms": 537.9079999938255,
+    "top_domains": {
+      "pagead2.googlesyndication.com": 11,
+      "fundingchoicesmessages.google.com": 7,
+      "ittr-asia.eskimi.com": 4,
+      "analytics.google.com": 4,
+      "token.rubiconproject.com": 4,
+      "utilapi.geeksforgeeks.org": 4,
+      "id5-sync.com": 3,
+      "c.amazon-adsystem.com": 2,
+      "www.geeksforgeeks.org": 2,
+      "ad.doubleclick.net": 2
+    },
+    "status_breakdown": {
+      "200": 39,
+      "204": 28
+    },
+    "method_breakdown": {
+      "POST": 36,
+      "GET": 30,
+      "HEAD": 1
+    },
+    "slowest_requests": [
+      {
+        "url": "https://lb.eu-1-id5-sync.com/lb/v1",
+        "time_ms": 3422.7599998084006,
+        "status": 200
+      },
+      {
+        "url": "https://ads.servenobid.com/adreq?cb=4728",
+        "time_ms": 2190.2779999144673,
+        "status": 200
+      },
+      {
+        "url": "https://id5-sync.com/api/config/prebid",
+        "time_ms": 1670.8439998539834,
+        "status": 200
+      },
+      {
+        "url": "https://artechnology-prebid.attekmi.com/pbjs",
+        "time_ms": 1389.2300000787825,
+        "status": 200
+      },
+      {
+        "url": "https://rtb.linkedin.com/lax/view?evt=0&laxrid=81c36c44-e878-41f1-9469-9ad65b49a20b&eid=3&crid=745382823&adfmt=NATIVE_VIDEO&trk=CwEAAAGZJQ5R4svMiPq0e8MycTYXkHqFWXqa3yU219qTjGgYTrXRlsxlxUbU42gMFEIsdhbRwteqYWI_g_tZy4Xrc68CoaqsyoIlYTpxFkw3-q2lqm_aAG-OV3ANCE_9TTboeppb-QDAdusdegRlJyHGHYdcWx4wBF3IaC8JnvOhDoPBOutpFZidov3RjxbqUIfU6_Vh5-SxupoXB6JDe-Hs3jSMu9A3PVcE_ozoR_JjsRr4cPACP0RGFKTdR73FL5BkyTRqHITdw7dEM4l3SaD0wCJwKDz0MzWTRAPVlZ4tK3CQhcsTstv4KmSKFHoCt0hvZQ7pagncPlQfxSqo81qP1m3jXfhC8SxmV872RahU_wQgip3pOM3VkTCa8XX_QUXtUh4pVglcYFYCPYrMcR082y-qYUWWLXHevp93Sht78yWOjdruLLq_oCy-CsWhR8g8uHRxJ3NplPjv4_0wCqGoTHF4wbMo0OANpE_GUyNw0JRCym37K-12QHJGDXhswy13f7WOevyArPkVLQVsO8foSDcpo1zM35hyfQweGQyDU_-uNPedjcyCIFZNOTzne2Cd3hW9fXuMfhJXlaZbNTyAcMob7D1w1JSIKBZRo0nvGNxcMZai77gTb2WsjGW6sbWx2cFvqGrJrxHttB718oDNe5_-NaDJHFwDO6sjPbf2BgAoKk7U_6rj3iMKD3PjhESlafbVIdx7V5B2i6EyqpDAiyfyul_hZ4wpqxGqOzTe6y8dzJLyMNWuz5wnXS8cdHDOqHuwXKnjV7h9H7ub8Bfwp6SEQ-P2r2-Ap2-YIHhvliQdmAECVtu2p3BWZ8McPWvkIu0zCtydSa-PGSjS-gzybVzDR3wGd9mdS1WUA_kMVy3MFZ-cB4CSSt1_9bahAn0xgHNepae60soV8rgpt7elRwH5Z1tlgBrOketBxZC0EFhV-dVZt3SWRYwzrfABoymg3e0NZ1r7C0KryWQ16vCu9c3ougwUxD_HkPjfE--Z07wlw-sCaGZGUV0Rbmv25NKLeiyjUHN_fsBx5_chZAMgX7SrMdemsAmLfPv-0vYmCOVtU0b0SQ4ziwH9swrbdMb8VOoHWxPpwYKV3LJJYzbgBXahjePV1Tydqm8QQSxR9NG4PWQQTpfkk1ibk4fgAOog05AoE32npL-YJCp7ql2-62765XtWv2_zeHM1ALJru-dfMZxDLYf6cGdRIAsZFW3MRiFy5lEKuTPuIVMa8fg4vVQ0CzqhoFA_Golx-FjLocgUa8U9CdKoXFyxVZXWnLdkmgf9nISwpJOk4YQg408BnwiUvvQId8GC8B7NNPSi0l8yboj4ECvOGwuZo-Pg02n-CkFfJ19u5g15nmAuZHFESeo8_eZ12eeDyGaO-n1SIErNR8MA1s86zxgf1idu7x3eDrK45QWzMxgT660wA5JNbcU919K6LnrCD8u5BbxCNrzSw2Fsg0wcTe-tD786H0hAO4vkCoY2ai9YD4rVhSG18fUl8u4j4aD0zByt5Ipju4C-aIhMU9rjRnN9-62VRfVpfeWiXUAIRlVHRJr61IpzjGy0cLRvplR6Hab3yrlegEUoq-KffjxvH0ljzqw0MjySjaiGFg5SE3cCulNeF5mvsy4KhEfTuTnz3sAjQufr-m5wvwiH9fUZvSRPjLsSOGRZ-VSx77CNubMJmHthp_w7MrR38dxPjqT3i9rxCvZQ5ol6H--wxVC3FMCG0q0Y8HqI1BwQZw4bxVXEDcce2Krl0HymscKvbx1Ql8zjR92QffUiCJkg9vsqNLOR7GFgwO2SpIwxNBlUB9V18wwM90Xv06bTX1WHlmJs1XwT4NAJXb0e4NX3mi7XwMQ6cGw_SeHVJAGaHA&vidpl=UNKNOWN&bdid=2&i=VPAID&ver=linkedin&imp=58000c03a7c149ada8e66248642592b3",
+        "time_ms": 1288.4060000534355,
+        "status": 204
+      }
+    ],
+    "largest_responses": [
+      {
+        "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=2170779490259958&correlator=1184488693043027&eid=31086815%2C83321443&output=ldjh&gdfp_req=1&vrg=202509020101&ptt=17&impl=fifs&gdpr=0&us_privacy=1---&gpp_sid=-1&iu_parts=27823234%2Cgfg_desktop_incontent_300x250_la%2CGFG_Desktop_RightSideBar_ATF_300x250_2%2C22683361272%2CGFG_Desktop_RightSideBar_BTF_Sticky_300x250%2C22683361281%2Cbottomsticky_direct_728x90&enc_prev_ius=%2F0%2F1%2C%2F0%2F2%2C%2F0%2F3%2C%2F0%2F4%2C%2F0%2F5%2C%2F0%2F6&prev_iu_szs=300x250%2C250x250%7C300x50%7C300x100%7C300x250%7C180x150%7C300x600%7C160x600%7C120x600%2C300x600%7C160x600%7C120x600%7C300x250%7C300x50%7C300x100%7C250x250%7C180x150%2C300x250%7C320x180%7C300x50%7C300x100%7C180x150%7C300x600%7C160x600%7C120x600%2C300x600%7C160x600%7C120x600%7C300x250%7C300x50%7C300x100%7C250x250%7C180x150%2C728x90&ifi=1&didk=934625752~1733057370~1359971217~2273860076~210386275~2015198361&dids=GFG_AD_Desktop_InContent_ATF_3~GFG_AD_Desktop_RightSideBar_AT~GFG_AD_Desktop_RightSideBar_AT~GFG_AD_Desktop_RightSideBar_BT~GFG_AD_Desktop_RightSideBar_BT~GFG_AD_Desktop_Stickyunit_1x1&adfs=2709698705~3085038682~2296976042~1838333829~349076044~3798537709&sfv=1-0-45&eri=1&sc=1&cookie=ID%3D142398e66fc063bf%3AT%3D1739984777%3ART%3D1757257710%3AS%3DALNI_MZsL9ZXIzCtrVNORzFpNgll9WmF4A&gpic=UID%3D00001180be5832fa%3AT%3D1755275432%3ART%3D1757257710%3AS%3DALNI_MaCpJdzRr9ODAjZLpsk8cU1lmevvw&abxe=1&dt=1757263319268&lmt=1757263319&adxs=73%2C0%2C0%2C0%2C0%2C-12245933&adys=908%2C3775%2C3785%2C4645%2C4655%2C-12245933&biw=445&bih=594&scr_x=0&scr_y=1480&btvi=0%7C1%7C2%7C3%7C4%7C-1&ucis=1%7C2%7C3%7C4%7C5%7C6&oid=2&u_his=1&u_h=703&u_w=1249&u_ah=670&u_aw=1249&u_cd=24&u_sd=1.384&u_tz=330&dmc=8&bc=31&nvt=2&uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTM5LjAuNzI1OC4xNTUiLG51bGwsMCxudWxsLCI2NCIsW1siTm90O0E9QnJhbmQiLCI5OS4wLjAuMCJdLFsiR29vZ2xlIENocm9tZSIsIjEzOS4wLjcyNTguMTU1Il0sWyJDaHJvbWl1bSIsIjEzOS4wLjcyNTguMTU1Il1dLDBd&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Finterview-experiences%2Fsap-labs-interview-experience-for-development-associate-consultant-fte-on-campus-2020%2F&ref=https%3A%2F%2Fin.search.yahoo.com%2F&vis=1&psz=385x0%7C445x609%7C445x609%7C445x9%7C445x9%7C445x5731&msz=300x-1%7C300x-1%7C300x-1%7C319x-1%7C300x-1%7C445x-1&fws=4%2C4%2C4%2C516%2C516%2C644&ohw=300%2C300%2C300%2C319%2C300%2C445&topics=3&tps=3&htps=10&a3p=ElYKDGlkNS1zeW5jLmNvbRJESUQ1Km5WYmdBVmctdTJKQ0NUcmVubG5qc280Y1Bld01iU2cwVmZGRnBKSHJIb0ZISVdYTDhDSTZsYVprR0NvWjN0YjhYARI2CgxhZHNlcnZlci5vcmcSJDA1ZWEzY2UzLTBlY2YtNDIyZS1hZGVhLTA5YzgxZmJhZWU1NVgBEpsCCg5lc3AuY3JpdGVvLmNvbRL_AVRsT1BaMTlaVkc1cU5IQWxNa1pVSlRKQ1ZVczRhRkFsTWtaUlJYVTVhV3BCZEdWRVkwWXpTMGxXTlZodlNrNVBiREJST1ZsWGRFOTBKVEpDVEcxeldXMHpka28xTXpka1p6VnVXWFkxV0ZwSVJpVXlSbE55Tm1sRVMwVTNZVlZQWXpsRk16RnNaR2w1Ukhkc1IzQjBhMkp4YUZsdlVWRk1VbE4zY21OVVpEQnJNVkV3U0ZKeFRuRnJlbTR5SlRKR2RuWnVlVXgzUVhWTFZ6TTBVVGxLUjNWbk5ITkdkbU54YTBFMmJGbEdlRGhZWTFwaWVHMWhZMDltVG5jbE0wURjWjbmokjNIABJBChBlc3AucHVibWF0aWMuY29tEiQ3MEVGNjY5OS0xMUZBLTQ4MzktODMyMC1EMEY0QjhBNTYxNTUY1Y25qJIzSAASGQoKdWlkYXBpLmNvbRjnruKSkjNIAFICCG8SJgoXcGVybXV0aXZlLXNlY3VyZS1zaWduYWwYxODAk5IzSABSAghkEsICCghydGJob3VzZRKsAktCN0pIWThUK2dzOU51bGpsOFpBY3VTdlJiQ3B2MVdIc01YR1hlNmtTV2ZnTzJRSTNZZ0xwajFWWldVay9pcFo3SXZKWDh4ajcwNGZZa0M5VkdPSWo2NTBEcTFUYnVHOHJ3Y3lwbTNURms4TUJET0lpUEJPT0VOMHpFVDg1S0ZBWW44UzdnTXJJQ1JnNUZTcmZ3WFg5R0F6OGdLbE9qSUVoOEd6SHk0SlBic215Z3hGSUt5dDBSRllYRk11dHdrS3l3akh5RWpsS1dtMENpOWp6bWlUR3RFNE01UTZDeDA3cWFLRTVmcWJaSDFEOGNsUlZrclZuQ05tTk1yWCtvZm9LTDNKRDJnMWI2c1BXUllHbXorME1PSStsZGd1MW9CdlpiU2h3eFpoZjJnPRi_krmokjNIABIbCgwzM2Fjcm9zcy5jb20YzI25qJIzSABSAght&nt=1&psd=WzMxLFtudWxsLG51bGwsbnVsbCwiZGVwcmVjYXRlZF9rYW5vbiJdLG51bGwsM10.&dlt=1757263292747&idt=1907&prev_scp=%7Camznbid%3D2%26amznp%3D2%7Camznbid%3D2%26amznp%3D2%7Camznbid%3D2%26amznp%3D2%7Camznbid%3D2%26amznp%3D2%26v3_gfg_hb_format%3Dbanner%26v3_gfg_hb_pb%3D4.38%26v3_gfg_hb_adid%3D634c4b08a6df767%26v3_gfg_hb_bidder%3Dopenx%7C&cust_params=gfg_categories%3DInterviewExperiences%26gender%3Dnot_set%26user_type%3Dnot_set%26qualification%3Dnot_set%26grad_year%3Dnot_set%26current_salary%3Dnot_set%26experimentKey%3DNO-RUNNING-EXPERIMENTS&adks=4121220747%2C3790494406%2C2978141451%2C1969777795%2C603901270%2C695794256&frm=20&eo_id_str=ID%3Dfc42c1bd5adde1a3%3AT%3D1756384770%3ART%3D1757257710%3AS%3DAA-AfjZIbl3YwSPTpVsggq9zIf6-&gblpids=~%2F27823234%2FGFG_Desktop_RightSideBar_ATF_300x250_2~%2F27823234%2F22683361272~%2F27823234%2FGFG_Desktop_RightSideBar_BTF_Sticky_300x250~%2F27823234%2F22683361281~&pb_szs=~250x250%7C300x50%7C300x100%7C300x250%7C180x150%7C300x600%7C160x600%7C120x600~300x600%7C160x600%7C120x600%7C300x250%7C300x50%7C300x100%7C250x250%7C180x150~300x250%7C320x180%7C300x50%7C300x100%7C180x150%7C300x600%7C160x600%7C120x600~300x600%7C160x600%7C120x600%7C300x250%7C300x50%7C300x100%7C250x250%7C180x150~&pbbce=1&td=1&egid=25916&tan=2ab8c549-f472-4915-8fe4-fab8448e78bc%2C2ab8c549-f472-4915-8fe4-fab8448e78bd%2C2ab8c549-f472-4915-8fe4-fab8448e78be%2C2ab8c549-f472-4915-8fe4-fab8448e78bf%2C2ab8c549-f472-4915-8fe4-fab8448e78c0%2C2ab8c549-f472-4915-8fe4-fab8448e78c1&tdf=2",
+        "responseSize": 294674,
+        "status": 200
+      },
+      {
+        "url": "https://rtb.openx.net/openrtbb/prebidjs",
+        "responseSize": 53533,
+        "status": 200
+      },
+      {
+        "url": "https://ads.servenobid.com/adreq?cb=4728",
+        "responseSize": 33382,
+        "status": 200
+      },
+      {
+        "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202509020101&st=env",
+        "responseSize": 17882,
+        "status": 200
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/wp-content/themes/iconic-one/js/login-modal-revamp.min.js?ver=1.2",
+        "responseSize": 12106,
+        "status": 200
+      }
+    ],
+    "avg_timings": {
+      "dns_ms": 17.21534328358209,
+      "connect_ms": 147.27814925373136,
+      "send_ms": 0.7013134328358184,
+      "wait_ms": 234.93465673693882,
+      "receive_ms": 71.4309999837415
+    },
+    "https_ratio": 1.0,
+    "requests_over_time": {
+      "2025-09-07T16:41:00+00:00": 45,
+      "2025-09-07T16:42:00+00:00": 22
+    }
+  }
+}

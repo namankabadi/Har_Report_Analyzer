@@ -1,0 +1,23 @@
+{
+  "id": "71aa9147-45a8-4206-a75d-d9395f8bca3b",
+  "created_at": "2025-09-08T17:38:53.012550Z",
+  "meta": {
+    "source_file": "chatgpt.har",
+    "n_entries": 53
+  },
+  "analysis": {
+    "total_requests": 53,
+    "total_bytes": 240623,
+    "avg_time_ms": 631.8278301913826,
+    "top_domains": {
+      "chatgpt.com": 46,
+      "ab.chatgpt.com": 4,
+      "realtime.chatgpt.com": 3
+    },
+    "status_breakdown": {
+      "200": 48,
+      "202": 4,
+      "204": 1
+    }
+  }
+}

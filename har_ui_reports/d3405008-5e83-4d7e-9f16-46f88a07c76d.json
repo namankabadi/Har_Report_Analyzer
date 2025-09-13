@@ -1,0 +1,29 @@
+{
+  "id": "d3405008-5e83-4d7e-9f16-46f88a07c76d",
+  "created_at": "2025-09-08T17:36:20.287383Z",
+  "meta": {
+    "source_file": "gfg.har",
+    "n_entries": 67
+  },
+  "analysis": {
+    "total_requests": 67,
+    "total_bytes": 438386,
+    "avg_time_ms": 537.9079999938255,
+    "top_domains": {
+      "pagead2.googlesyndication.com": 11,
+      "fundingchoicesmessages.google.com": 7,
+      "ittr-asia.eskimi.com": 4,
+      "analytics.google.com": 4,
+      "token.rubiconproject.com": 4,
+      "utilapi.geeksforgeeks.org": 4,
+      "id5-sync.com": 3,
+      "c.amazon-adsystem.com": 2,
+      "www.geeksforgeeks.org": 2,
+      "ad.doubleclick.net": 2
+    },
+    "status_breakdown": {
+      "200": 39,
+      "204": 28
+    }
+  }
+}

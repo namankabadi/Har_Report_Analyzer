@@ -1,0 +1,102 @@
+{
+  "id": "d48bca1b-5786-4cc5-8ab2-8ad4f36ac567",
+  "created_at": "2025-09-09T15:05:59.609367Z",
+  "meta": {
+    "source_file": "gfg_large.har",
+    "n_entries": 223
+  },
+  "analysis": {
+    "total_requests": 223,
+    "total_bytes": 9575741,
+    "avg_time_ms": 356.20548430491266,
+    "top_domains": {
+      "www.geeksforgeeks.org": 44,
+      "cdnvideos.geeksforgeeks.org": 29,
+      "pagead2.googlesyndication.com": 22,
+      "fundingchoicesmessages.google.com": 14,
+      "utilapi.geeksforgeeks.org": 13,
+      "analytics.google.com": 11,
+      "practiceapi.geeksforgeeks.org": 10,
+      "y.clarity.ms": 7,
+      "securepubads.g.doubleclick.net": 6,
+      "notificationsapi.geeksforgeeks.org": 5
+    },
+    "status_breakdown": {
+      "200": 109,
+      "204": 59,
+      "403": 39,
+      "0": 10,
+      "304": 3,
+      "302": 2,
+      "206": 1
+    },
+    "method_breakdown": {
+      "GET": 142,
+      "POST": 78,
+      "HEAD": 2,
+      "PUT": 1
+    },
+    "slowest_requests": [
+      {
+        "url": "https://id5-sync.com/api/config/prebid",
+        "time_ms": 2326.3149999999578,
+        "status": 200
+      },
+      {
+        "url": "https://artechnology-prebid.attekmi.com/pbjs",
+        "time_ms": 2114.2330000002403,
+        "status": 0
+      },
+      {
+        "url": "https://ads.servenobid.com/adreq?cb=6836",
+        "time_ms": 2111.210999999912,
+        "status": 0
+      },
+      {
+        "url": "https://ittr-asia.eskimi.com/prebidjs",
+        "time_ms": 2093.446999999742,
+        "status": 0
+      },
+      {
+        "url": "https://ittr-asia.eskimi.com/prebidjs",
+        "time_ms": 2091.327000000092,
+        "status": 0
+      }
+    ],
+    "largest_responses": [
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00002.ts",
+        "responseSize": 707456,
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00002.ts",
+        "responseSize": 707456,
+        "status": 200
+      },
+      {
+        "url": "https://www.googletagservices.com/agrp/prod/model_person_country_code_IN_person_region_code_42616e67616c6f7265.json",
+        "responseSize": 656056,
+        "status": 200
+      },
+      {
+        "url": "https://www.googletagservices.com/agrp/prod/model_person_country_code_IN_person_region_code_42616e67616c6f7265.json",
+        "responseSize": 656056,
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00006.ts",
+        "responseSize": 644096,
+        "status": 200
+      }
+    ],
+    "avg_timings": {
+      "dns_ms": 4.673112107623319,
+      "connect_ms": 48.6124932735426,
+      "send_ms": 0.5380582959641254,
+      "wait_ms": 210.99812107623114,
+      "receive_ms": 17.971336322867426
+    },
+    "https_ratio": 1.0,
+    "requests_over_time": {
+      

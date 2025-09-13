@@ -1,0 +1,1105 @@
+{
+  "id": "81f1ace3-d83d-4461-8f6d-17941559d61e",
+  "created_at": "2025-09-13T17:30:13.675043Z",
+  "meta": {
+    "source_file": "gfg_large.har",
+    "n_entries": 223
+  },
+  "analysis": {
+    "total_requests": 223,
+    "total_bytes": 9575741,
+    "avg_time_ms": 356.20548430491266,
+    "top_domains": {
+      "www.geeksforgeeks.org": 44,
+      "cdnvideos.geeksforgeeks.org": 29,
+      "pagead2.googlesyndication.com": 22,
+      "fundingchoicesmessages.google.com": 14,
+      "utilapi.geeksforgeeks.org": 13,
+      "analytics.google.com": 11,
+      "practiceapi.geeksforgeeks.org": 10,
+      "y.clarity.ms": 7,
+      "securepubads.g.doubleclick.net": 6,
+      "notificationsapi.geeksforgeeks.org": 5
+    },
+    "status_breakdown": {
+      "200": 109,
+      "204": 59,
+      "403": 39,
+      "0": 10,
+      "304": 3,
+      "302": 2,
+      "206": 1
+    },
+    "method_breakdown": {
+      "GET": 142,
+      "POST": 78,
+      "HEAD": 2,
+      "PUT": 1
+    },
+    "slowest_requests": [
+      {
+        "url": "https://id5-sync.com/api/config/prebid",
+        "time_ms": 2326.3149999999578,
+        "status": 200
+      },
+      {
+        "url": "https://artechnology-prebid.attekmi.com/pbjs",
+        "time_ms": 2114.2330000002403,
+        "status": 0
+      },
+      {
+        "url": "https://ads.servenobid.com/adreq?cb=6836",
+        "time_ms": 2111.210999999912,
+        "status": 0
+      },
+      {
+        "url": "https://ittr-asia.eskimi.com/prebidjs",
+        "time_ms": 2093.446999999742,
+        "status": 0
+      },
+      {
+        "url": "https://ittr-asia.eskimi.com/prebidjs",
+        "time_ms": 2091.327000000092,
+        "status": 0
+      }
+    ],
+    "largest_responses": [
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00002.ts",
+        "responseSize": 707456,
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00002.ts",
+        "responseSize": 707456,
+        "status": 200
+      },
+      {
+        "url": "https://www.googletagservices.com/agrp/prod/model_person_country_code_IN_person_region_code_42616e67616c6f7265.json",
+        "responseSize": 656056,
+        "status": 200
+      },
+      {
+        "url": "https://www.googletagservices.com/agrp/prod/model_person_country_code_IN_person_region_code_42616e67616c6f7265.json",
+        "responseSize": 656056,
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00006.ts",
+        "responseSize": 644096,
+        "status": 200
+      }
+    ],
+    "avg_timings": {
+      "dns_ms": 4.673112107623319,
+      "connect_ms": 48.6124932735426,
+      "send_ms": 0.5380582959641254,
+      "wait_ms": 210.99812107623114,
+      "receive_ms": 17.971336322867426
+    },
+    "https_ratio": 1.0,
+    "requests_over_time": {
+      "2025-09-08 17:45:00+00:00": 112,
+      "2025-09-08 17:46:00+00:00": 111
+    },
+    "content_types": {
+      "text/html": 62,
+      "application/json": 60,
+      "x-unknown": 23,
+      "text/plain": 20,
+      "image/gif": 20,
+      "video/mp2t": 12,
+      "text/css": 8,
+      "application/vnd.apple.mpegurl": 7,
+      "binary/octet-stream": 4,
+      "application/javascript": 2,
+      "text/javascript": 2,
+      "text/vtt": 1,
+      "application/pgp-keys": 1,
+      "text/vnd.trolltech.linguist": 1
+    },
+    "all_requests": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-DWCCJLKX3X&gtm=45je5940v884918195za200zd884918195&_p=1757353469358&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&dma=0&cid=2131079068.1645179472&ul=en-in&sr=1249x703&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813&sid=1757353469&sct=335&seg=0&dl=https%3A%2F%2Fwww.geeksforgeeks.org%2F&dr=https%3A%2F%2Fin.search.yahoo.com%2F&dt=GeeksforGeeks%20%7C%20Your%20All-in-One%20Learning%20Portal&en=user_engagement&_et=4044&tfd=33530",
+        "status": 0
+      },
+      {
+        "url": "https://utilapi.geeksforgeeks.org/api/user/profile/",
+        "status": 200
+      },
+      {
+        "url": "https://utilapi.geeksforgeeks.org/api/user/profile/",
+        "status": 200
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/nation-skill-up.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/courses/full-stack-node.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/courses/data-science-live.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/courses.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?tid=AW-796001856&en=page_view&dr=in.search.yahoo.com&dl=https%3A%2F%2Fwww.geeksforgeeks.org%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=983319167.1757353502&dt=GeeksforGeeks%20%7C%20Your%20All-in-One%20Learning%20Portal&auid=1527484624.1756384759&navt=r&npa=0&gtm=45be5940v877914216za200zb884918195zd884918195xec&gcs=G1--&gcd=13l3l3R3l5l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105426766~105426768~115480709&tft=1757353502413&tfd=618&apve=1&apvf=f",
+        "status": 200
+      },
+      {
+        "url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/css/64634b4e3be283eb.css",
+        "status": 200
+      },
+      {
+        "url": "https://notificationsapi.geeksforgeeks.org/push-notification/user/list/?count=true",
+        "status": 200
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/jobs.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/gfg-hiring-solutions-for-recruiters.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/learn-data-structures-and-algorithms-dsa-tutorial.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/courses/gate-premium.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/web-development.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/ai-ml-ds.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/machine-learning.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/learn-data-structures-and-algorithms-dsa-tutorial.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/gfg-hiring-solutions-for-recruiters.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/courses/gate-premium.json",
+        "status": 403
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-DWCCJLKX3X&gtm=45je5940v884918195za200zd884918195&_p=1757353502131&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=2131079068.1645179472&ul=en-in&sr=1249x703&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813&sid=1757353469&sct=335&seg=1&dl=https%3A%2F%2Fwww.geeksforgeeks.org%2F&dr=https%3A%2F%2Fin.search.yahoo.com%2F&dt=GeeksforGeeks%20%7C%20Your%20All-in-One%20Learning%20Portal&en=page_view&_ee=1&tfd=4955",
+        "status": 204
+      },
+      {
+        "url": "https://ipv6.6sc.co/",
+        "status": 200
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json",
+        "status": 200
+      },
+      {
+        "url": "https://id5-sync.com/api/config/prebid",
+        "status": 200
+      },
+      {
+        "url": "https://utilapi.geeksforgeeks.org/api/post/meta/",
+        "status": 200
+      },
+      {
+        "url": "https://utilapi.geeksforgeeks.org/api/user/profile/",
+        "status": 200
+      },
+      {
+        "url": "https://prod.uidapi.com/v2/token/client-generate",
+        "status": 200
+      },
+      {
+        "url": "https://c.amazon-adsystem.com/cdn/prod/config?src=600&u=https%3A%2F%2Fwww.geeksforgeeks.org&pubid=ea747225-5f2f-4971-b80e-e7cf7cdd1e7b",
+        "status": 200
+      },
+      {
+        "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js",
+        "status": 200
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "status": 200
+      },
+      {
+        "url": "https://utilapi.geeksforgeeks.org/api/page-tally/",
+        "status": 200
+      },
+      {
+        "url": "https://utilapi.geeksforgeeks.org/post/api/visitedterms/",
+        "status": 200
+      },
+      {
+        "url": "https://authapi.geeksforgeeks.org/api-post/store-login-detail/",
+        "status": 200
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pagead/purl_config?url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fdsa%2Fdsa-tutorial-learn-data-structures-and-algorithms%2F&puc_types=1",
+        "status": 200
+      },
+      {
+        "url": "https://notificationsapi.geeksforgeeks.org/push-notification/user/list/?count=true",
+        "status": 200
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxWBGEYne-ORvfngM_bCWW2JAc1qMpjp4ju09sRsEGRcJ-DDreaXbYAEKf0WVNqh_iZyjB2maZNc7vkinHucXdM0ZkZeRkZ_qm_zGSZagfRTPDffr48HRh9xyX6SL5hJf1oJF3YikQ==",
+        "status": 204
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxWBGEYne-ORvfngM_bCWW2JAc1qMpjp4ju09sRsEGRcJ-DDreaXbYAEKf0WVNqh_iZyjB2maZNc7vkinHucXdM0ZkZeRkZ_qm_zGSZagfRTPDffr48HRh9xyX6SL5hJf1oJF3YikQ==",
+        "status": 204
+      },
+      {
+        "url": "https://id5-sync.com/bounce",
+        "status": 200
+      },
+      {
+        "url": "https://lbs.eu-1-id5-sync.com/lbs/v1",
+        "status": 200
+      },
+      {
+        "url": "https://lb.eu-1-id5-sync.com/lb/v1",
+        "status": 200
+      },
+      {
+        "url": "https://image6.pubmatic.com/AdServer/UCookieSetPug?oid=5&p=156578&publisherId=156578&src=esp_google&ver=1&coppa=0&gdpr_consent=&gdpr=0&us_privacy=1---&gpp=&gpp_sid=",
+        "status": 200
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxWBGEYne-ORvfngM_bCWW2JAc1qMpjp4ju09sRsEGRcJ-DDreaXbYAEKf0WVNqh_iZyjB2maZNc7vkinHucXdM0ZkZeRkZ_qm_zGSZagfRTPDffr48HRh9xyX6SL5hJf1oJF3YikQ==",
+        "status": 204
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/e929bf110a2f9cd6113209b8a914dfbbgfg-RoadmapToLearnDSA2023042515172120241112155437/video.m3u8",
+        "status": 200
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxWBGEYne-ORvfngM_bCWW2JAc1qMpjp4ju09sRsEGRcJ-DDreaXbYAEKf0WVNqh_iZyjB2maZNc7vkinHucXdM0ZkZeRkZ_qm_zGSZagfRTPDffr48HRh9xyX6SL5hJf1oJF3YikQ==",
+        "status": 204
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxWBGEYne-ORvfngM_bCWW2JAc1qMpjp4ju09sRsEGRcJ-DDreaXbYAEKf0WVNqh_iZyjB2maZNc7vkinHucXdM0ZkZeRkZ_qm_zGSZagfRTPDffr48HRh9xyX6SL5hJf1oJF3YikQ==",
+        "status": 204
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxWBGEYne-ORvfngM_bCWW2JAc1qMpjp4ju09sRsEGRcJ-DDreaXbYAEKf0WVNqh_iZyjB2maZNc7vkinHucXdM0ZkZeRkZ_qm_zGSZagfRTPDffr48HRh9xyX6SL5hJf1oJF3YikQ==",
+        "status": 204
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1",
+        "status": 204
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/e929bf110a2f9cd6113209b8a914dfbbgfg-RoadmapToLearnDSA2023042515172120241112155437/4/video.m3u8",
+        "status": 200
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxVoaMrN5mjpObNHSx-vYSn3XImHEXcqvYR4PT0jZV0ZWcl3TI0rG0vrSAnHiOVAjgDXZgkXN82lkJoHcJttox9FvO7XLHOZsQ0JWBBa5dACIpHpulX1RzKxJi8rcDVpKunVR63yfg==",
+        "status": 204
+      },
+      {
+        "url": "https://lb.eu-1-id5-sync.com/lb/v1",
+        "status": 200
+      },
+      {
+        "url": "https://id5-sync.com/gm/v3",
+        "status": 200
+      },
+      {
+        "url": "https://gumi.criteo.com/sid/json?origin=publishertagids&domain=geeksforgeeks.org&sn=ChromeSyncframe&so=3&topUrl=www.geeksforgeeks.org&bundle=hS0ASV9ZVG5qNHAlMkZUJTJCVUs4aFAlMkZRRXU5aWpCRG1OckI2eW5zOU1ySTNtaDF2a1ZlbjlvTWRwNUpqJTJGbE9PMDNiUW8lMkYlMkJjRVFOUUxDelBCUEhMSzN6dXBzeE5SVnFGZzlQN0RYbDY5SnUyb2piME40dUFvOGJHeWdqY1RwajQxcW5GTXJmNjN0U0o1VDVzeSUyQmNkNXdCUTNCN0pBMkIzQTlnMlR0TFUyYTBFN2c1bUt6USUzRA&topicsavail=1&fledgeavail=1",
+        "status": 302
+      },
+      {
+        "url": "https://mug.criteo.com/sid?cpp=ms4IFXw0MzlmSnlIeEJNaHcxMlBhQklLb0twems4eTAwTFBaL3hQbzJWUVhJVzNac3FYVVdnMzNtRitTTkN6M3lRWXVlbDdaMEE3eFVlNTB5YXRETElUdjM2eFErN0VHSmNKa2QyVmxTTEZ5MGlta0VaQUZ4cFFCL3hSVFV0N0J1RmNWSTN1S0J6c2l5cW5saysxRkNja25sSkxjRlRSWUIycEtaUHoyQ3hCVko2Nm1JZm5QRDdTYlEvc1V0VGl2bDYrUm0yT3dJdnNtQ2tzVytDNHdsNkQvMUs3a01admxUQlZnY09qdU1uTHlUZXBRT2pIVm1lM1h2M29CNmNMazkvUGF5RFdXWE1pOVJjTmh3OUh3eHdjdXU3YnA5bTIyQ0k1N2xTMmNYTkZ4M3ZkcVN4eEVOL2Vvak9YbnlCQ2JYa0FmZW1BM3p2VFNnTnRBa0xmQ29HeUEzQlE9PXw&cppv=2",
+        "status": 200
+      },
+      {
+        "url": "https://id5-sync.com/g/v2/1206.json",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/e929bf110a2f9cd6113209b8a914dfbbgfg-RoadmapToLearnDSA2023042515172120241112155437/subtitle.vtt",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/e929bf110a2f9cd6113209b8a914dfbbgfg-RoadmapToLearnDSA2023042515172120241112155437/4/keyfile.key",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/e929bf110a2f9cd6113209b8a914dfbbgfg-RoadmapToLearnDSA2023042515172120241112155437/4/0000.ts",
+        "status": 200
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-DWCCJLKX3X&gtm=45je5940v884918195za200zb858768136zd858768136&_p=1757353507273&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=2131079068.1645179472&ul=en-in&sr=1249x703&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115489982&sid=1757353469&sct=335&seg=1&dl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fdsa%2Fdsa-tutorial-learn-data-structures-and-algorithms%2F&dr=https%3A%2F%2Fwww.geeksforgeeks.org%2F&dt=DSA%20Tutorial%20-%20Learn%20Data%20Structures%20and%20Algorithms%20-%20GeeksforGeeks&en=page_view&_ee=1&tfd=6534",
+        "status": 204
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-DWCCJLKX3X&gtm=45je5940v884918195za200zb858768136zd858768136&_p=1757353507273&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&dma=0&tcfd=10000&cid=2131079068.1645179472&ul=en-in&sr=1249x703&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115489982&sid=1757353469&sct=335&seg=1&dl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fdsa%2Fdsa-tutorial-learn-data-structures-and-algorithms%2F&dr=https%3A%2F%2Fwww.geeksforgeeks.org%2F&dt=DSA%20Tutorial%20-%20Learn%20Data%20Structures%20and%20Algorithms%20-%20GeeksforGeeks&en=scroll&epn.percent_scrolled=90&_et=13856&tfd=22175",
+        "status": 0
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-DWCCJLKX3X&gtm=45je5940v884918195za200zb858768136zd858768136&_p=1757353507273&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&dma=0&tcfd=10000&cid=2131079068.1645179472&ul=en-in&sr=1249x703&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=3&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115489982&sid=1757353469&sct=335&seg=1&dl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fdsa%2Fdsa-tutorial-learn-data-structures-and-algorithms%2F&dr=https%3A%2F%2Fwww.geeksforgeeks.org%2F&dt=DSA%20Tutorial%20-%20Learn%20Data%20Structures%20and%20Algorithms%20-%20GeeksforGeeks&en=user_engagement&_et=4698&tfd=22176",
+        "status": 0
+      },
+      {
+        "url": "https://utilapi.geeksforgeeks.org/api/user/profile/",
+        "status": 200
+      },
+      {
+        "url": "https://practiceapi.geeksforgeeks.org/api/vr/events/promotional/?page_source=auth_header&user_country_code=IN",
+        "status": 200
+      },
+      {
+        "url": "https://practiceapi.geeksforgeeks.org/api/resource/",
+        "status": 200
+      },
+      {
+        "url": "https://practiceapi.geeksforgeeks.org/api/vr/events/promotional/?page_source=course_landing&user_country_code=IN",
+        "status": 200
+      },
+      {
+        "url": "https://practiceapi.geeksforgeeks.org/api/latest/courses/dsa-self-paced/meta/",
+        "status": 200
+      },
+      {
+        "url": "https://practiceapi.geeksforgeeks.org/api/v1/courses/dsa-self-paced/details/",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p.m3u8",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927.key",
+        "status": 0
+      },
+      {
+        "url": "https://notificationsapi.geeksforgeeks.org/push-notification/user/list/?count=true",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p.m3u8",
+        "status": 0
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/static/css/5d068b650a4fff59.css",
+        "status": 200
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/static/css/4e0eed19565c4172.css",
+        "status": 200
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/static/css/6baacc7f6cef4b04.css",
+        "status": 200
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/static/css/95e10b0e950241b2.css",
+        "status": 200
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/static/css/ec020b939b6f609b.css",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p.m3u8",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927.key",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00001.ts",
+        "status": 200
+      },
+      {
+        "url": "https://www.google.com/measurement/conversion/?random=1757353530522&cv=11&tid=G-SZ454CLTZM&fst=1757353530522&fmt=6&en=page_view&gtm=45je5940v885296220z8838943698za200zb838943698zd838943698xec&gcs=G111&gcd=13v3v3_3t5l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105426769~105426771&u_w=1249&u_h=703&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcourses%2Fdsa-self-paced&ref=https%3A%2F%2Fwww.geeksforgeeks.org%2Fdsa%2Fdsa-tutorial-learn-data-structures-and-algorithms%2F&gacid=2131079068.1645179472&frm=0&tiba=Data%20Structures%20and%20Algorithms%20-%20Self%20Paced%20%5BOnline%20Course%5D&npa=0&pscdl=noapi&auid=1527484624.1756384759&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&_tu=CA",
+        "status": 200
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-SZ454CLTZM&gtm=45je5940v885296220z8838943698za200zb838943698zd838943698&_p=1757353529667&_gaz=1&gcs=G111&gcd=13v3v3_3t5l1&npa=0&dma=0&cid=2131079068.1645179472&ecid=1401907474&ul=en-in&sr=1249x703&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=a&_prs=ok&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105426769~105426771&sid=1757353530&sct=27&seg=0&dl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcourses%2Fdsa-self-paced&dr=https%3A%2F%2Fwww.geeksforgeeks.org%2Fdsa%2Fdsa-tutorial-learn-data-structures-and-algorithms%2F&dt=Data%20Structures%20and%20Algorithms%20-%20Self%20Paced%20%5BOnline%20Course%5D&_tu=CA&en=page_view&_ss=1&_c=1&tfd=1709",
+        "status": 302
+      },
+      {
+        "url": "https://px.ads.linkedin.com/attribution_trigger?pid=2436970&time=1757353530604&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcourses%2Fdsa-self-paced",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p.m3u8",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927.key",
+        "status": 304
+      },
+      {
+        "url": "https://www.google-analytics.com/privacy-sandbox/register-conversion?_c=1&cid=2131079068.1645179472&dbk=7277697953041640229&dma=0&en=page_view&ga_rb_key=%2500%EFU%DAbhEF%AB%F5%83%C7%98Lk%3F%95)nH%BF&gcs=G111&gtm=45je5940v885296220z8838943698za200zb838943698zd838943698&npa=0&tid=G-SZ454CLTZM&dl=https%3A%2F%2Fwww.geeksforgeeks.org%3F",
+        "status": 204
+      },
+      {
+        "url": "https://y.clarity.ms/collect",
+        "status": 204
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00001.ts",
+        "status": 200
+      },
+      {
+        "url": "https://practiceapi.geeksforgeeks.org/api/v1/crm/course-page/visit/",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p.m3u8",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927.key",
+        "status": 304
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00001.ts",
+        "status": 206
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00002.ts",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p.m3u8",
+        "status": 200
+      },
+      {
+        "url": "https://px.ads.linkedin.com/wa/?medium=fetch",
+        "status": 204
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927.key",
+        "status": 304
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00001.ts",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00002.ts",
+        "status": 200
+      },
+      {
+        "url": "https://y.clarity.ms/collect",
+        "status": 204
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00003.ts",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00004.ts",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00005.ts",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00006.ts",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00007.ts",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00008.ts",
+        "status": 200
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720p/00000/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927-hlsx720pseg_00009.ts",
+        "status": 200
+      },
+      {
+        "url": "https://y.clarity.ms/collect",
+        "status": 204
+      },
+      {
+        "url": "https://y.clarity.ms/collect",
+        "status": 204
+      },
+      {
+        "url": "https://y.clarity.ms/collect",
+        "status": 204
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-SZ454CLTZM&gtm=45je5940v885296220z8838943698za200zb838943698zd838943698&_p=1757353529667&gcs=G111&gcd=13v3v3_3t5l1&npa=0&dma=0&cid=2131079068.1645179472&ecid=1401907474&ul=en-in&sr=1249x703&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105426769~105426771&sid=1757353530&sct=27&seg=1&dl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcourses%2Fdsa-self-paced&dr=https%3A%2F%2Fwww.geeksforgeeks.org%2Fdsa%2Fdsa-tutorial-learn-data-structures-and-algorithms%2F&dt=Data%20Structures%20and%20Algorithms%20-%20Self%20Paced%20%5BOnline%20Course%5D&_tu=CA&_s=2&tfd=18714",
+        "status": 204
+      },
+      {
+        "url": "https://y.clarity.ms/collect",
+        "status": 204
+      },
+      {
+        "url": "https://y.clarity.ms/collect",
+        "status": 204
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-SZ454CLTZM&gtm=45je5940v885296220z8838943698za200zb838943698zd838943698&_p=1757353529667&gcs=G111&gcd=13v3v3_3t5l1&npa=0&dma=0&cid=2131079068.1645179472&ecid=1401907474&ul=en-in&sr=1249x703&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=3&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105426769~105426771&sid=1757353530&sct=27&seg=1&dl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcourses%2Fdsa-self-paced&dr=https%3A%2F%2Fwww.geeksforgeeks.org%2Fdsa%2Fdsa-tutorial-learn-data-structures-and-algorithms%2F&dt=Data%20Structures%20and%20Algorithms%20-%20Self%20Paced%20%5BOnline%20Course%5D&_tu=CA&en=scroll_75&_et=5980&tfd=27678",
+        "status": 204
+      },
+      {
+        "url": "https://px.ads.linkedin.com/wa/?medium=fetch",
+        "status": 204
+      },
+      {
+        "url": "https://px.ads.linkedin.com/wa/?medium=fetch",
+        "status": 204
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-6K5G5NTXFT&gtm=45je5940h1v9115865543za200zd9115865543&_p=1757353564499&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=2131079068.1645179472&ul=en-in&sr=1249x703&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAI&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480710&sid=1757353564&sct=6&seg=0&dl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fuser%2Fnamankabadi50%2F&dr=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcourses%2Fdsa-self-paced&dt=Naman%20Kabadi%20-%20Sri%20Dharmasthala%20Manjunatheshwara%20College%20of%20Engineering%20and%20Technology%20(SDMCET)%20Dharwad%20%7C%20GeeksforGeeks%20Profile&en=page_view&_ss=1&_ee=1&tfd=3013",
+        "status": 204
+      },
+      {
+        "url": "https://utilapi.geeksforgeeks.org/api/user/profile/",
+        "status": 200
+      },
+      {
+        "url": "https://utilapi.geeksforgeeks.org/api/user/profile/",
+        "status": 200
+      },
+      {
+        "url": "https://authapi.geeksforgeeks.org/api-get/user-profile-info/?handle=namankabadi50&article_count=true&redirect=true",
+        "status": 200
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problem-of-the-day.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/colleges/sri-dharmasthala-manjunatheshwara-college-of-engineering-and-technology-sdmcet-dharwad.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/colleges/sri-dharmasthala-manjunatheshwara-college-of-engineering-and-technology-sdmcet-dharwad/students.json",
+        "status": 403
+      },
+      {
+        "url": "https://communityapi.geeksforgeeks.org/user/is-following/",
+        "status": 200
+      },
+      {
+        "url": "https://practiceapi.geeksforgeeks.org/api/v1/user/problems/submissions/",
+        "status": 200
+      },
+      {
+        "url": "https://practiceapi.geeksforgeeks.org/api/v1/user/problems/submissions/",
+        "status": 200
+      },
+      {
+        "url": "https://practiceapi.geeksforgeeks.org/api/v1/courses/mycourses/?handle=namankabadi50",
+        "status": 200
+      },
+      {
+        "url": "https://practiceapi.geeksforgeeks.org/api/v1/user/problems/submissions/",
+        "status": 200
+      },
+      {
+        "url": "https://authapi.geeksforgeeks.org/api-get/user-profile-info/?handle=namankabadi50&article_count=false&redirect=true",
+        "status": 200
+      },
+      {
+        "url": "https://notificationsapi.geeksforgeeks.org/push-notification/user/list/?count=true",
+        "status": 200
+      },
+      {
+        "url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/css/3598d566a9e01b65.css",
+        "status": 200
+      },
+      {
+        "url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/css/2205c8c738e72294.css",
+        "status": 200
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problem-of-the-day.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/courses/gfg-160-series.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/courses/microsoft-in-29-days.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problems/implement-stack-using-array/0.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problems/precise-fomat-java/0.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problems/while-loop-printtable-java/0.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problems/reverse-an-array/0.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problems/missing-number-in-array1416/0.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problems/search-in-a-matrix17201720/0.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/courses/gfg-160-series.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/courses/gfg-160-series.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/courses/microsoft-in-29-days.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problems/search-in-a-matrix17201720/0.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problems/move-all-negative-elements-to-end1813/0.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problems/find-pair-given-difference1559/0.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problems/second-largest3735/0.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problems/does-robot-moves-circular0414/0.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problems/print-n-to-1-without-loop/0.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problems/print-gfg-n-times/0.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problems/buy-stock-2/0.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/problems/pass-by-reference-and-value/0.json",
+        "status": 403
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/_next/data/vt9wHa-X9SNrLA-Z3nmpe/author-badges-rulebook.json",
+        "status": 403
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pagead/purl_config?url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcomputer-science-fundamentals%2Fprogramming-language-tutorials%2F&puc_types=1",
+        "status": 200
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json",
+        "status": 200
+      },
+      {
+        "url": "https://utilapi.geeksforgeeks.org/api/post/meta/",
+        "status": 200
+      },
+      {
+        "url": "https://utilapi.geeksforgeeks.org/api/user/profile/",
+        "status": 200
+      },
+      {
+        "url": "https://c.amazon-adsystem.com/cdn/prod/config?src=600&u=https%3A%2F%2Fwww.geeksforgeeks.org&pubid=ea747225-5f2f-4971-b80e-e7cf7cdd1e7b",
+        "status": 200
+      },
+      {
+        "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js",
+        "status": 200
+      },
+      {
+        "url": "https://ipv6.6sc.co/",
+        "status": 200
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxVAJrWBXc4eMbOLf5xq9bKACsVge0R-dKFvLj-4-wyBQzs_21HljmJJpbugtkFNQ05KxOrzLH3NbesTwG562IAKimOHMEipYqg2AOJ0Crz8IOvAOASbrWrd6xcwm0ayXdzQ4pQrbQ==",
+        "status": 204
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxVAJrWBXc4eMbOLf5xq9bKACsVge0R-dKFvLj-4-wyBQzs_21HljmJJpbugtkFNQ05KxOrzLH3NbesTwG562IAKimOHMEipYqg2AOJ0Crz8IOvAOASbrWrd6xcwm0ayXdzQ4pQrbQ==",
+        "status": 204
+      },
+      {
+        "url": "https://utilapi.geeksforgeeks.org/api/page-tally/",
+        "status": 200
+      },
+      {
+        "url": "https://utilapi.geeksforgeeks.org/post/api/visitedterms/",
+        "status": 200
+      },
+      {
+        "url": "https://authapi.geeksforgeeks.org/api-post/store-login-detail/",
+        "status": 200
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        "status": 200
+      },
+      {
+        "url": "https://notificationsapi.geeksforgeeks.org/push-notification/user/list/?count=true",
+        "status": 200
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-DWCCJLKX3X&gtm=45je5940v884918195za200zd884918195&_p=1757353584813&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=2131079068.1645179472&ul=en-in&sr=1249x703&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~115489982&sid=1757353469&sct=335&seg=1&dl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcomputer-science-fundamentals%2Fprogramming-language-tutorials%2F&dr=https%3A%2F%2Fwww.geeksforgeeks.org%2Fuser%2Fnamankabadi50%2F&dt=Programming%20Languages%20Tutorials%20-%20GeeksforGeeks&en=page_view&_ee=1&tfd=1616",
+        "status": 204
+      },
+      {
+        "url": "https://image6.pubmatic.com/AdServer/UCookieSetPug?oid=5&p=156578&publisherId=156578&src=esp_google&ver=1&coppa=0&gdpr_consent=&gdpr=0&us_privacy=1---&gpp=&gpp_sid=",
+        "status": 200
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxVAJrWBXc4eMbOLf5xq9bKACsVge0R-dKFvLj-4-wyBQzs_21HljmJJpbugtkFNQ05KxOrzLH3NbesTwG562IAKimOHMEipYqg2AOJ0Crz8IOvAOASbrWrd6xcwm0ayXdzQ4pQrbQ==",
+        "status": 204
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxVAJrWBXc4eMbOLf5xq9bKACsVge0R-dKFvLj-4-wyBQzs_21HljmJJpbugtkFNQ05KxOrzLH3NbesTwG562IAKimOHMEipYqg2AOJ0Crz8IOvAOASbrWrd6xcwm0ayXdzQ4pQrbQ==",
+        "status": 204
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxVAJrWBXc4eMbOLf5xq9bKACsVge0R-dKFvLj-4-wyBQzs_21HljmJJpbugtkFNQ05KxOrzLH3NbesTwG562IAKimOHMEipYqg2AOJ0Crz8IOvAOASbrWrd6xcwm0ayXdzQ4pQrbQ==",
+        "status": 204
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxVAJrWBXc4eMbOLf5xq9bKACsVge0R-dKFvLj-4-wyBQzs_21HljmJJpbugtkFNQ05KxOrzLH3NbesTwG562IAKimOHMEipYqg2AOJ0Crz8IOvAOASbrWrd6xcwm0ayXdzQ4pQrbQ==",
+        "status": 204
+      },
+      {
+        "url": "https://artechnology-prebid.attekmi.com/pbjs",
+        "status": 0
+      },
+      {
+        "url": "https://ads.servenobid.com/adreq?cb=6836",
+        "status": 0
+      },
+      {
+        "url": "https://ib.adnxs.com/ut/v3/prebid",
+        "status": 200
+      },
+      {
+        "url": "https://direct.adsrvr.org/bid/bidder/direct1f86tp73",
+        "status": 200
+      },
+      {
+        "url": "https://htlb.casalemedia.com/openrtb/pbjs?s=777856",
+        "status": 200
+      },
+      {
+        "url": "https://ittr-asia.eskimi.com/prebidjs",
+        "status": 0
+      },
+      {
+        "url": "https://ittr-asia.eskimi.com/prebidjs",
+        "status": 204
+      },
+      {
+        "url": "https://ittr-asia.eskimi.com/prebidjs",
+        "status": 0
+      },
+      {
+        "url": "https://ittr-asia.eskimi.com/prebidjs",
+        "status": 0
+      },
+      {
+        "url": "https://rtb.openx.net/openrtbb/prebidjs",
+        "status": 200
+      },
+      {
+        "url": "https://aax.amazon-adsystem.com/e/dtb/bid",
+        "status": 200
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1",
+        "status": 204
+      },
+      {
+        "url": "https://hbopenbid.pubmatic.com/translator?source=prebid-client&gzip=1",
+        "status": 204
+      },
+      {
+        "url": "https://fundingchoicesmessages.google.com/el/AGSKWxXrddjU0zwa2ax5Meuh9emtS3kK39JlArVLcBavK0PVIyF6u__uKfyiGgl0MweKWuSvd9v12XpoDKbPUHrQf1grLq74NojyP9ySUzjtquEsT71pSf6VeiKQIyrDuaDfDyHzGzwUVw==",
+        "status": 204
+      },
+      {
+        "url": "https://adapi.geeksforgeeks.org/analytics/auctionendresponse/",
+        "status": 200
+      },
+      {
+        "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202509020101&st=env",
+        "status": 200
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=588476942353079&correlator=3681623983833783&eid=31093080%2C31094236%2C31094536%2C83321073%2C31086810%2C95335247&output=ldjh&gdfp_req=1&vrg=202509020101&ptt=17&impl=fifs&gdpr=0&us_privacy=1---&gpp_sid=-1&iu_parts=27823234%2CGFG_Desktop_RightSideBar_ATF_300x250_2%2C22683361272%2CGFG_Desktop_RightSideBar_BTF_Sticky_300x250%2C22683361281%2Cbottomsticky_direct_728x90&enc_prev_ius=%2F0%2F1%2C%2F0%2F2%2C%2F0%2F3%2C%2F0%2F4%2C%2F0%2F5&prev_iu_szs=250x250%7C300x50%7C300x100%7C300x250%7C180x150%7C300x600%7C160x600%7C120x600%2C300x600%7C160x600%7C120x600%7C300x250%7C300x50%7C300x100%7C250x250%7C180x150%2C300x250%7C320x180%7C300x50%7C300x100%7C180x150%7C300x600%7C160x600%7C120x600%2C300x600%7C160x600%7C120x600%7C300x250%7C300x50%7C300x100%7C250x250%7C180x150%2C728x90&ifi=1&didk=1733057370~1359971217~2273860076~210386275~2015198361&dids=GFG_AD_Desktop_RightSideBar_AT~GFG_AD_Desktop_RightSideBar_AT~GFG_AD_Desktop_RightSideBar_BT~GFG_AD_Desktop_RightSideBar_BT~GFG_AD_Desktop_Stickyunit_1x1&adfs=3085038682~2296976042~1838333829~349076044~3798537709&sfv=1-0-45&eri=1&sc=1&cookie=ID%3D142398e66fc063bf%3AT%3D1739984777%3ART%3D1757353533%3AS%3DALNI_MZsL9ZXIzCtrVNORzFpNgll9WmF4A&gpic=UID%3D00001180be5832fa%3AT%3D1755275432%3ART%3D1757353533%3AS%3DALNI_MaCpJdzRr9ODAjZLpsk8cU1lmevvw&abxe=1&dt=1757353588467&lmt=1757353588&adxs=0%2C0%2C0%2C0%2C-12245933&adys=4469%2C4479%2C5339%2C5349%2C-12245933&biw=445&bih=594&scr_x=0&scr_y=619&btvi=1%7C2%7C3%7C4%7C-1&ucis=1%7C2%7C3%7C4%7C5&oid=2&u_his=7&u_h=703&u_w=1249&u_ah=670&u_aw=1249&u_cd=24&u_sd=1.384&u_tz=330&dmc=8&bc=31&nvt=1&uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTM5LjAuNzI1OC4xNTUiLG51bGwsMCxudWxsLCI2NCIsW1siTm90O0E9QnJhbmQiLCI5OS4wLjAuMCJdLFsiR29vZ2xlIENocm9tZSIsIjEzOS4wLjcyNTguMTU1Il0sWyJDaHJvbWl1bSIsIjEzOS4wLjcyNTguMTU1Il1dLDBd&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcomputer-science-fundamentals%2Fprogramming-language-tutorials%2F&ref=https%3A%2F%2Fwww.geeksforgeeks.org%2Fuser%2Fnamankabadi50%2F&vis=1&psz=445x609%7C445x609%7C445x9%7C445x9%7C445x6425&msz=300x-1%7C300x-1%7C319x-1%7C300x-1%7C445x-1&fws=4%2C4%2C516%2C516%2C644&ohw=300%2C300%2C319%2C300%2C445&topics=3&tps=3&htps=10&a3p=EmwKDGlkNS1zeW5jLmNvbRJaSUQ1KmJBMDJmS2xsYlItelV1eWpid0kxejM5SDY1SDlOdjVKcEtxVDJXQ3d5UHpfXzJpX0ZpVmFBQUVCQ21jNWdBOEFSNGw4UUF5ZC1QOEFHVklLcjJ2bFRnWAES6wEKCnVpZGFwaS5jb20S2gFBNEFBQUJleF9aOFVBdzRwaEZoQy1maFcyWkJtMGJaM2E5STkxaHgwcjRSRHhFZjNZX1dzQzZMMV9XdHFrRWtUMVRsNHVibGJrc2tZZkRodkgwTWgyRTBmQjJ5Y29vOEdOX3NOb1l6RHlENXRhUTBkdnU1Q2tqRHROTW9sMG5LTkZXeGVYQjg4QmEybF9salVxT2pZUXhyWEpHb1MzRGJiRkUxVFNLSGNSNWJkRzdFd09vY3d5UEVPT29QYzFQWmVFeHZsc2tNM3VoVDI3Tnl5T0o4ZGdDOGE2QVgBEjYKDGFkc2VydmVyLm9yZxIkMDVlYTNjZTMtMGVjZi00MjJlLWFkZWEtMDljODFmYmFlZTU1WAESpgIKDmVzcC5jcml0ZW8uY29tEooCWnRjUGRWOVpWRzVxTkhBbE1rWlVKVEpDVlVzNGFGQWxNa1pSUlhVNWFXcE5ibmxCTTJwVWVWUWxNa1puVlRWVlYzbzJaMjVIYWtSRlNGQnhUSEJ2UkZoRGRuQkRZMGczWmxKa2RGaHZlak5uY1dsS2RUSjNSbk55V1daSFIySnRhbVE1WmlVeVJtcGtXQ1V5UW05NFRUZHRla0Z3TlRaSGVFUlRSWGQ2Um1aakpUSkdKVEpHY1hkd00ybFdlV1pXVGpKTFRUSkJlVXRyTkZkc0pUSkdNSGNsTWtKNlJqWm9WVzlOTnpSeE1rSkhVblJHZGtaeFYwNXhaRWhCYm5veWFqYzBkeVV6UkEYqKW705IzSAASQQoQZXNwLnB1Ym1hdGljLmNvbRIkNzBFRjY2OTktMTFGQS00ODM5LTgzMjAtRDBGNEI4QTU2MTU1GKilu9OSM0gAEiYKF3Blcm11dGl2ZS1zZWN1cmUtc2lnbmFsGMTgwJOSM0gAUgIIZBKWAgoIcnRiaG91c2USgAI0TmlrbGk1dVhqaHlLZTE0RGlhTTU3REYwUmRPb3NuNENWYk03ODU0S01saHA0VHlZaEFPOWUxL2lsdzcrb0lONjJxQ3JUNnBTaWtiWVJydnQvNlowSytzaHpmVmthc3krS1ordEwxVmpyZmR2S3g2QlFFYmJKa2lQN1ljcFB2b3Rsc2hDaGR4clp6Q0hrajhhRHJ5VDFvZm1GTnB3SVdMRGtrbk5QQ0JHS2xQOWZjTGZzTWpYRVE3ZmdVMmlSWDQveGRXVEs5TGpLZjgrVHpjbU82dU5xdzRoTDhHVk45SGM1OXNudEpldE5PaEI3U3pUZTdrTzB0Q2I5clZkVTRjGL6qu9OSM0gAEhsKDDMzYWNyb3NzLmNvbRjMobvTkjNIAFICCG0.&nt=1&psd=WzMxLFtudWxsLG51bGwsbnVsbCwiZGVwcmVjYXRlZF9rYW5vbiJdLG51bGwsM10.&dlt=1757353584416&idt=578&prev_scp=amznbid%3D2%26amznp%3D2%7Camznbid%3D2%26amznp%3D2%7Camznbid%3D2%26amznp%3D2%7Camznbid%3D2%26amznp%3D2%7C&cust_params=gfg_categories%3D%26gender%3D030ef4a52619b493d3cc75d8034e3df378dae231%26user_type%3Dd9c4e99a174c9471bbbff15488d37a5f4f3607ea%26qualification%3D45fc315fc61118b9db4c167ac5802e76b388c47f%26grad_year%3D7e79a3af2634de6635e59c9404d251b3955d39f9%26current_salary%3Dnot_set%26experimentKey%3DNO-RUNNING-EXPERIMENTS&adks=3790494406%2C2978141451%2C1969777795%2C603901270%2C695794256&frm=20&eo_id_str=ID%3Dfc42c1bd5adde1a3%3AT%3D1756384770%3ART%3D1757353533%3AS%3DAA-AfjZIbl3YwSPTpVsggq9zIf6-&gblpids=%2F27823234%2FGFG_Desktop_RightSideBar_ATF_300x250_2~%2F27823234%2F22683361272~%2F27823234%2FGFG_Desktop_RightSideBar_BTF_Sticky_300x250~%2F27823234%2F22683361281~&pb_szs=250x250%7C300x50%7C300x100%7C300x250%7C180x150%7C300x600%7C160x600%7C120x600~300x600%7C160x600%7C120x600%7C300x250%7C300x50%7C300x100%7C250x250%7C180x150~300x250%7C320x180%7C300x50%7C300x100%7C180x150%7C300x600%7C160x600%7C120x600~300x600%7C160x600%7C120x600%7C300x250%7C300x50%7C300x100%7C250x250%7C180x150~&pbbce=1&td=1&egid=34783&tan=5d7e117c-eb83-48b4-8477-a65b8287b76f%2C5d7e117c-eb83-48b4-8477-a65b8287b770%2C5d7e117c-eb83-48b4-8477-a65b8287b771%2C5d7e117c-eb83-48b4-8477-a65b8287b772%2C5d7e117c-eb83-48b4-8477-a65b8287b773&tdf=2",
+        "status": 200
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjstFdHFSsjEVf4vSwSD221m5SweCz3MqNKmllXWkwsjuqjuOp4rICN0ekRNoAciVkIJOAlHlfNi0qwQwyXffTGBR-nvf6NtipJP6_7Xm_8-y7Ooh3L9_9VcoZ3l8gSPyDTrNdsrxQxXLPeqGSzQrSMj9j7njc7wo90CnwGarAHRil8i-JaWt9UtKQ49HCv126El1h47lRTOPPU-93ljZTZ-nyei6cCGaMmTqfcEryoEE1x0hAUR8jP9U7QWlYlSd4TfZayKIbZgwazbDX71cveuSF1RrmBSjYOnNcaU_oSqV1K5ahlCGY8uVVQvfGG3NNoA2T7PqOr59zC9B47Tek3pQMQwR4BC-yzC_iOmAOw1a2jnFHRyh66uP6f7ZGoissbOrRj6JtWJqrLZNB7hDBE0JPDSAy3deH13P0YhWOUhWu-6DPYIfNG4OuE-rgPlp5gRIPQPyCK0NsZRvjGcEUhiL28zmz-VoDDGisei4izPB-f8&sai=AMfl-YRe_Z1nY-EwSK41gF7LWcKuzQzWVCNUx-M0-BlHIGpaimhqe0qWRbpyd8Llk2nqQYzdTet4EAXnk41sgO1AJLr3uduqp4IIy_ZTd0ajNbePfZ159KyMQ4xbHGK8xTrmzWeiLK50k94bCiW14N-OrnMa0imgghxMm_FCFmOxC2Srj_iLvH6fZyWDpl2Taon0ZC3TnHWfHN72-GWkpXF9vowHEbJ6tNrh5ypxh5W3uX2XPzmI4eOCa6lzFjDFDjBuTodf0xm-_dtR4wz8UmypFw&sig=Cg0ArKJSzFKrMOr6l2vCEAE&uach_m=%5BUACH%5D&adurl=",
+        "status": 200
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-DWCCJLKX3X&gtm=45je5940v884918195z8858768136za200zd884918195&_p=1757353584813&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&dma=0&tcfd=10000&cid=2131079068.1645179472&ul=en-in&sr=1249x703&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~115489982&sid=1757353469&sct=335&seg=1&dl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcomputer-science-fundamentals%2Fprogramming-language-tutorials%2F&dr=https%3A%2F%2Fwww.geeksforgeeks.org%2Fuser%2Fnamankabadi50%2F&dt=Programming%20Languages%20Tutorials%20-%20GeeksforGeeks&_s=2&tfd=5007",
+        "status": 204
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pagead/adview?ai=CMCF0cxa_aL3zNIzGmsMPsfvesQKSppCzX8_5_82MCcCNtwEQASDjqthkYOXK5YO0DsgBCeACAKgDAcgDAqoExQJP0KU7gT8Xli_Gb_YcDycKqHgZTVDQTvCjiJ79GpdH0Zaea9WP-4W0phJJLDHOw3ngjnmAJa3W4d3pT_azG5F2I47gnFXh6QoHa3AucK2i14ptfhMHOiJnX7fk3aHqtGG0FzGW_cSOJrSg7PJ-dqboRv1VMCCtWqejMVcevwlxMayjSg18QQ8iNSY5bS7vRWZSwvS_oQVIM2uKbBYAzUe3aSE1AGP20EJYoZRUlo9xPWxtJAu-DTau2DSD-vzhgMgXPDSn1W8s8Ar1PX13lSPqV14j_RNGJGWb2IXO8KPS76PWzGKOBK5jaWit-LsmU3GyfYJDlJQnXXSWmjIZ_mQ7hkvNBSRlncNd_xKo6JHZvVPY3PBQCsvhAazwKGLAh8MOg4icTetElnTIDJZQAz-ki4m2gOzg5EqBeop34RWFhKrgGjQQ4AQBgAbDvZDw98mqi90BoAYhqAemvhuoB5bYG6gHqpuxAqgH_56xAqgH35-xAqgHrb6xAtgHANIIJgiAYRABMgKKAjoNgECAwICAgICogAKoA0i9_cE6WLPz4aLcyY8DgAoD-gsCCAGADAGqDQJJTuINEwjomOSi3MmPAxUMo2YCHbG9NybqDRMIlZnlotzJjwMVDKNmAh2xvTcmiA7___________8B0BUBgBcBshcsChoSFHB1Yi03Nzg4NTc4MDI0NTg1MzkzGLLgExgMKgo5NTU2MDg4NjgyUAGqGBcJDgIrhwaQ2kASCjk1NTYwODg2ODIYAQ&sigh=009Aoc79Ytk&uach_m=%5BUACH%5D&cid=CAQSqwEA2abssxoJPhzjjnvSlV8sn8hy5jDuDOcQx-bahC97m-IzyPb2J9AkDrAFMCpXVl34GLAvf0uaCS8UtKrHfnFGdLxK2Gpeduojfg-aw6MaWIYU7vtUYF2J4v9oXpOL6M03lRIhE3QKp7jFqjZy33xpqbl0zEhLf-myICGADLiUFkR-r5_nPrg02uS-nbHAZEN9Ievo4LRDXFqHui4CBr8SDlJNEPP49q1ewHAYAQ",
+        "status": 200
+      },
+      {
+        "url": "https://rtb-us-west.linkedin.com/lax/imp?trk=CwEAAAGZKm-1mQOOd_MOcmDMC8ZLNatOl49XYAXIjtgdb2g03gD6HUhot7oXZLKH9h9L5t3mkI3364eHasXSo1fxhomH6Xr9kRHV4wrZN4_g7YnOaOEoJ4v7k9wmPKNWFJ8RDzi88mJfhV4mvAUBVmupwXNfNjClgWMNmzqmF4fC0f6dA0bINBhEFQluRdwWqShLZYW1rrfiHzuttOqe3DXoD5FYtqIH_sTWMUuT_hAuc45X8HQnZVCroS3-81fn0iFF-ldZ3i2UooNuNSfgNwO7vIBHD8rECcL0ZhonelrETT1EEQ6DtoAUlEusNYhA8Xdlu6fj_nDlafP8TLHWT5Mdb1KzsbXbmqfceuu-AA46yaVHmCpJYdqrjoSBowWWLIwQSB6fkALhQYp3h2hsgJ13bhFnTewZHRdFxmFudXQiGbjWPuP4EHf9xgSl617vVB6-Z_9x3HVr9I12WV1b9d9_rrlFGjvxvnUYN0c1SVNaNbh2KPBTvqvlyaHJdqVOAhPdPbArfWwMaTCFkzs5vZUBXYE3wTFZyCKFd7JhOyK01Pgr-Gf9cwg4JiDFKUL3WzFoYiIIga78RN_O83KIfqOJ-PLcHDPBLpsjJUzkapsiXD5YnULH327CpwYkf11vtV-YfbfDeo2sqdIuWOltb3oTtzA9LPXDr6LBTRaLpAVXGZWMD_F4PyEiidwXpHQ_1Jrv_NhmYvsyv-srxHdDdJpJVo6F8TbdqTU2muTpZ3jqbbpdFJdsuJJFOEUDKrzzxDWJbyWfa-SXlPv4Unc-lFXDC3Oktz88ZwtuOD-0uRUVSktyVsbX_uHZRRmUfWsUOSffWt0NlI6or-k6buDd_9wJusb-NotqYy_hX_F8EwpFOjzoGWkQQGLRUVApiQ9rrOL2I2GwpB4wG-OBcM5n4gqBWZAszyaEfggOprQqJgJPz0d_eRluMik0eHq20xiqWY2QaxBIxRjqbcPbFfyg8536S6IgS_cfJptImYXIQ5oT5-GFYZaFsdEbTxJ0ax_cLND6mtS1K2PzsDC20AkaaSILWdVuyHdNxOhlMmfo6RpnPpyJn_Njgaer3SSzdYUEFUcgTEyYN1GMqf9pCSiYzeL0TeTHt8rzQ5lW43RELCliTVT9neAB6HMQ1Rt1cCZDROzTyao60wlQ6d4F36G7tOIktTbj9tVqDcYp-lwXsODeFqRrZmQopQaBrPQTv7G_r8MJLKzIjKYoIoGx7OH0hBDgIjD1zare5elCo_e0oUid0_u0AqamgJgD-t5znGKEynrQGtqlWL1IF1Gkxe5HIlJzzeEbl3EIo6q9LgYXw2SBLwqMABH11KhJF3bQm0kXXhZwI0pfW9b77HiaH2_Napr0CgrVzMkwKmsxtuffn7bMLbIPEanUgaYxu25j7L1F20o1uSyaZxcqVM8aT0gc5x83EvfJo_vHGGEpbdaNp-ygcBNu8gIs3kEXEXa3w5cNrvhzoUkKzw20swJ0naQLShiRt3N5-OTywWGJQpbHxgg8kgk9KRLOexec9peOsbzEGpXfl5JVFZWvFNfuyj3PodqGZmUg6-f7JDsdchZUJAxh7pD9_2xQZPBe3fseDCuWfYr4rl4R_jAYUmRb62-hFVNKfPfC3vCmtav027Z-PfuJWscEq-YP8EMak2eeWJqjy92R-6tVEopjdMnXdlIAW6Wu7m4FgAtW5BjarwT_L_f09UZgVrbk_3uPAEzEWDMxnxMOr8PuA_CbqsC4M519NQPKs-Mim5byx4S-uMsAPEF3BrLmgOIvBGby10q1eXk_lYx-Ot0Xk63PrhqGPz_f3Pzhdd4q4OfdqQN8ZZBD&action=impression&laxrid=db0c898b-2de3-4391-a019-2820fa9ebf40&laxbid=2&eid=6&crtype=su&laxerid=r6X4rzDjrwbSja55-9iPIw&adfmt=3&ii=1&aui=r6X4rzDjrwbSja55-9iPIw&si=&abi=&wp=aL8WcwANOb0CZqMMADe9sRhhv1LSqt6iCn5cxw&aid=",
+        "status": 200
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=fle-fetch-start2",
+        "status": 204
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=colleague-executed&name=4",
+        "status": 204
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsu8tjy0Qx5li_QcOFkFtTxmgYYibhlTHl9e06JToOQ9Xr99eCYd0pTdN9JtPi9_izWRtMY0ER6TDPf8KY3ZXRGcoesu9GK5-gl31D5PY5o0oHNFiDaX_EOmWx4wWcvSLskR6taZ-VhVqtIT6BXgyxF6dkv3inNyp-0L2_5LQlA7C9S3ERBjPiHLTm1X-d62LO_DRJSfoD7pyEIyqR-AEPeCyUpzekDjDwqSmqr2yx7YDI6qMiSJJp0mx5lKO1O9SIG7PCKi4od8LlADffwNRixJGV7l667xLax8UhnnJewLTRd04i_WntOVBkLvCVsshEuQ_xXpVSlEbYGmOan49f9L37ZBArJDbGWpyQMQf14TOhYpHeebd_uWcRTNC4oUBpZF2nTzZsJk6jfYPlxjLLYv99L01USTmzr7vaFsGLxwtNgtlcBxLmp-f7hdLL6IZqzXEpImSXaKAyChb4-RhmbUC72P_ns&sai=AMfl-YTe7GxnOQX7Vg0nqBrftaNqTQRqxv70Yx0SJce3f1h9MvaH9xtvTWzP0GIgPOqS_ukn8i5GdOevdTcFMHF8CIIZyq8uA9Y3Lu-eeM6UwAoUpH-5jH5K98qZB9j0zgItdJLmavG1NwQyi8i3CkyuvKSAmTqa1Y2-iS0JLaN1CaIDi9PH-pskxb36gutUGP9DoLY-hZgg3K42pvt0tdAzpzw5f2OrR-PjhQhJHrSuXLUt5qbRE21g36qTZdXuIU8MSNRtiwisJh_W3ug10jU3FQ&sig=Cg0ArKJSzCPDdY05voCrEAE&uach_m=%5BUACH%5D&adurl=",
+        "status": 200
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=colleague-executed&name=1",
+        "status": 204
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAlgAWACYANgBGgD",
+        "status": 204
+      },
+      {
+        "url": "https://www.googletagservices.com/agrp/prod/model_person_country_code_IN_person_region_code_42616e67616c6f7265.json",
+        "status": 200
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAIgATpHbW9kZWxfcGVyc29uX2NvdW50cnlfY29kZV9JTl9wZXJzb25fcmVnaW9uX2NvZGVfNDI2MTZlNjc2MTZjNmY3MjY1Lmpzb25IyAFSGkNPZVk1S0xjeVk4REZReWpaZ0lkc2IwM0pnWhsItBIQ7J8BGJjBPSD5jKkEKAIwAjgBXc3MTD0%3D",
+        "status": 204
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAUoAjAC",
+        "status": 204
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAUoAjAB",
+        "status": 204
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAUoAjAC",
+        "status": 204
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAlgBWAGYAdgCGAJaAM%3D",
+        "status": 204
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=fle-fetch-start2",
+        "status": 204
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=colleague-executed&name=4",
+        "status": 204
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=colleague-executed&name=1",
+        "status": 204
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAlgAWACYANgBGgD",
+        "status": 204
+      },
+      {
+        "url": "https://www.googletagservices.com/agrp/prod/model_person_country_code_IN_person_region_code_42616e67616c6f7265.json",
+        "status": 200
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAIgATpHbW9kZWxfcGVyc29uX2NvdW50cnlfY29kZV9JTl9wZXJzb25fcmVnaW9uX2NvZGVfNDI2MTZlNjc2MTZjNmY3MjY1Lmpzb25IyAFSGkNQMzQ1YUxjeVk4REZReWpaZ0lkc2IwM0pnWhsItBIQ7J8BGJjBPSD5jKkEKAIwAjgBXc3MTD0%3D",
+        "status": 204
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAUoAjAC",
+        "status": 204
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAUoAjAB",
+        "status": 204
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAUoAjAC",
+        "status": 204
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAlgBWAGYAdgCGAJaAM%3D",
+        "status": 204
+      },
+      {
+        "url": "https://rtb.linkedin.com/lax/view?evt=0&laxrid=db0c898b-2de3-4391-a019-2820fa9ebf40&eid=6&crid=742438274&adfmt=BANNER&trk=CwEAAAGZKm-1mQOOd_MOcmDMC8ZLNatOl49XYAXIjtgdb2g03gD6HUhot7oXZLKH9h9L5t3mkI3364eHasXSo1fxhomH6Xr9kRHV4wrZN4_g7YnOaOEoJ4v7k9wmPKNWFJ8RDzi88mJfhV4mvAUBVmupwXNfNjClgWMNmzqmF4fC0f6dA0bINBhEFQluRdwWqShLZYW1rrfiHzuttOqe3DXoD5FYtqIH_sTWMUuT_hAuc45X8HQnZVCroS3-81fn0iFF-ldZ3i2UooNuNSfgNwO7vIBHD8rECcL0ZhonelrETT1EEQ6DtoAUlEusNYhA8Xdlu6fj_nDlafP8TLHWT5Mdb1KzsbXbmqfceuu-AA46yaVHmCpJYdqrjoSBowWWLIwQSB6fkALhQYp3h2hsgJ13bhFnTewZHRdFxmFudXQiGbjWPuP4EHf9xgSl617vVB6-Z_9x3HVr9I12WV1b9d9_rrlFGjvxvnUYN0c1SVNaNbh2KPBTvqvlyaHJdqVOAhPdPbArfWwMaTCFkzs5vZUBXYE3wTFZyCKFd7JhOyK01Pgr-Gf9cwg4JiDFKUL3WzFoYiIIga78RN_O83KIfqOJ-PLcHDPBLpsjJUzkapsiXD5YnULH327CpwYkf11vtV-YfbfDeo2sqdIuWOltb3oTtzA9LPXDr6LBTRaLpAVXGZWMD_F4PyEiidwXpHQ_1Jrv_NhmYvsyv-srxHdDdJpJVo6F8TbdqTU2muTpZ3jqbbpdFJdsuJJFOEUDKrzzxDWJbyWfa-SXlPv4Unc-lFXDC3Oktz88ZwtuOD-0uRUVSktyVsbX_uHZRRmUfWsUOSffWt0NlI6or-k6buDd_9wJusb-NotqYy_hX_F8EwpFOjzoGWkQQGLRUVApiQ9rrOL2I2GwpB4wG-OBcM5n4gqBWZAszyaEfggOprQqJgJPz0d_eRluMik0eHq20xiqWY2QaxBIxRjqbcPbFfyg8536S6IgS_cfJptImYXIQ5oT5-GFYZaFsdEbTxJ0ax_cLND6mtS1K2PzsDC20AkaaSILWdVuyHdNxOhlMmfo6RpnPpyJn_Njgaer3SSzdYUEFUcgTEyYN1GMqf9pCSiYzeL0TeTHt8rzQ5lW43RELCliTVT9neAB6HMQ1Rt1cCZDROzTyao60wlQ6d4F36G7tOIktTbj9tVqDcYp-lwXsODeFqRrZmQopQaBrPQTv7G_r8MJLKzIjKYoIoGx7OH0hBDgIjD1zare5elCo_e0oUid0_u0AqamgJgD-t5znGKEynrQGtqlWL1IF1Gkxe5HIlJzzeEbl3EIo6q9LgYXw2SBLwqMABH11KhJF3bQm0kXXhZwI0pfW9b77HiaH2_Napr0CgrVzMkwKmsxtuffn7bMLbIPEanUgaYxu25j7L1F20o1uSyaZxcqVM8aT0gc5x83EvfJo_vHGGEpbdaNp-ygcBNu8gIs3kEXEXa3w5cNrvhzoUkKzw20swJ0naQLShiRt3N5-OTywWGJQpbHxgg8kgk9KRLOexec9peOsbzEGpXfl5JVFZWvFNfuyj3PodqGZmUg6-f7JDsdchZUJAxh7pD9_2xQZPBe3fseDCuWfYr4rl4R_jAYUmRb62-hFVNKfPfC3vCmtav027Z-PfuJWscEq-YP8EMak2eeWJqjy92R-6tVEopjdMnXdlIAW6Wu7m4FgAtW5BjarwT_L_f09UZgVrbk_3uPAEzEWDMxnxMOr8PuA_CbqsC4M519NQPKs-Mim5byx4S-uMsAPEF3BrLmgOIvBGby10q1eXk_lYx-Ot0Xk63PrhqGPz_f3Pzhdd4q4OfdqQN8ZZBD&vidpl=%5BAUPLC%5D&bdid=2&i=DISPJS&ver=8554&imp=998c27a61766406195b9040ad2945ded",
+        "status": 204
+      },
+      {
+        "url": "https://adapi.geeksforgeeks.org/analytics/gptresponse/",
+        "status": 200
+      },
+      {
+        "url": "https://tps-dn-ae1.doubleverify.com/event.jpg?impid=998c27a61766406195b9040ad2945ded&consid=7a3bbbcb-ea30-411e-a3a5-b2ecc53a3585&api=1&rc=true",
+        "status": 204
+      },
+      {
+        "url": "https://rtb.linkedin.com/lax/view?evt=1&laxrid=db0c898b-2de3-4391-a019-2820fa9ebf40&eid=6&crid=742438274&adfmt=BANNER&trk=CwEAAAGZKm-1mQOOd_MOcmDMC8ZLNatOl49XYAXIjtgdb2g03gD6HUhot7oXZLKH9h9L5t3mkI3364eHasXSo1fxhomH6Xr9kRHV4wrZN4_g7YnOaOEoJ4v7k9wmPKNWFJ8RDzi88mJfhV4mvAUBVmupwXNfNjClgWMNmzqmF4fC0f6dA0bINBhEFQluRdwWqShLZYW1rrfiHzuttOqe3DXoD5FYtqIH_sTWMUuT_hAuc45X8HQnZVCroS3-81fn0iFF-ldZ3i2UooNuNSfgNwO7vIBHD8rECcL0ZhonelrETT1EEQ6DtoAUlEusNYhA8Xdlu6fj_nDlafP8TLHWT5Mdb1KzsbXbmqfceuu-AA46yaVHmCpJYdqrjoSBowWWLIwQSB6fkALhQYp3h2hsgJ13bhFnTewZHRdFxmFudXQiGbjWPuP4EHf9xgSl617vVB6-Z_9x3HVr9I12WV1b9d9_rrlFGjvxvnUYN0c1SVNaNbh2KPBTvqvlyaHJdqVOAhPdPbArfWwMaTCFkzs5vZUBXYE3wTFZyCKFd7JhOyK01Pgr-Gf9cwg4JiDFKUL3WzFoYiIIga78RN_O83KIfqOJ-PLcHDPBLpsjJUzkapsiXD5YnULH327CpwYkf11vtV-YfbfDeo2sqdIuWOltb3oTtzA9LPXDr6LBTRaLpAVXGZWMD_F4PyEiidwXpHQ_1Jrv_NhmYvsyv-srxHdDdJpJVo6F8TbdqTU2muTpZ3jqbbpdFJdsuJJFOEUDKrzzxDWJbyWfa-SXlPv4Unc-lFXDC3Oktz88ZwtuOD-0uRUVSktyVsbX_uHZRRmUfWsUOSffWt0NlI6or-k6buDd_9wJusb-NotqYy_hX_F8EwpFOjzoGWkQQGLRUVApiQ9rrOL2I2GwpB4wG-OBcM5n4gqBWZAszyaEfggOprQqJgJPz0d_eRluMik0eHq20xiqWY2QaxBIxRjqbcPbFfyg8536S6IgS_cfJptImYXIQ5oT5-GFYZaFsdEbTxJ0ax_cLND6mtS1K2PzsDC20AkaaSILWdVuyHdNxOhlMmfo6RpnPpyJn_Njgaer3SSzdYUEFUcgTEyYN1GMqf9pCSiYzeL0TeTHt8rzQ5lW43RELCliTVT9neAB6HMQ1Rt1cCZDROzTyao60wlQ6d4F36G7tOIktTbj9tVqDcYp-lwXsODeFqRrZmQopQaBrPQTv7G_r8MJLKzIjKYoIoGx7OH0hBDgIjD1zare5elCo_e0oUid0_u0AqamgJgD-t5znGKEynrQGtqlWL1IF1Gkxe5HIlJzzeEbl3EIo6q9LgYXw2SBLwqMABH11KhJF3bQm0kXXhZwI0pfW9b77HiaH2_Napr0CgrVzMkwKmsxtuffn7bMLbIPEanUgaYxu25j7L1F20o1uSyaZxcqVM8aT0gc5x83EvfJo_vHGGEpbdaNp-ygcBNu8gIs3kEXEXa3w5cNrvhzoUkKzw20swJ0naQLShiRt3N5-OTywWGJQpbHxgg8kgk9KRLOexec9peOsbzEGpXfl5JVFZWvFNfuyj3PodqGZmUg6-f7JDsdchZUJAxh7pD9_2xQZPBe3fseDCuWfYr4rl4R_jAYUmRb62-hFVNKfPfC3vCmtav027Z-PfuJWscEq-YP8EMak2eeWJqjy92R-6tVEopjdMnXdlIAW6Wu7m4FgAtW5BjarwT_L_f09UZgVrbk_3uPAEzEWDMxnxMOr8PuA_CbqsC4M519NQPKs-Mim5byx4S-uMsAPEF3BrLmgOIvBGby10q1eXk_lYx-Ot0Xk63PrhqGPz_f3Pzhdd4q4OfdqQN8ZZBD&vidpl=%5BAUPLC%5D&bdid=2&i=DISPJS&ver=8554&imp=998c27a61766406195b9040ad2945ded",
+        "status": 204
+      },
+      {
+        "url": "https://prebid.adnxs.com/pbs/v1/cookie_sync",
+        "status": 200
+      },
+      {
+        "url": "https://rtb.linkedin.com/lax/view?evt=2&laxrid=db0c898b-2de3-4391-a019-2820fa9ebf40&eid=6&crid=742438274&adfmt=BANNER&trk=CwEAAAGZKm-1mQOOd_MOcmDMC8ZLNatOl49XYAXIjtgdb2g03gD6HUhot7oXZLKH9h9L5t3mkI3364eHasXSo1fxhomH6Xr9kRHV4wrZN4_g7YnOaOEoJ4v7k9wmPKNWFJ8RDzi88mJfhV4mvAUBVmupwXNfNjClgWMNmzqmF4fC0f6dA0bINBhEFQluRdwWqShLZYW1rrfiHzuttOqe3DXoD5FYtqIH_sTWMUuT_hAuc45X8HQnZVCroS3-81fn0iFF-ldZ3i2UooNuNSfgNwO7vIBHD8rECcL0ZhonelrETT1EEQ6DtoAUlEusNYhA8Xdlu6fj_nDlafP8TLHWT5Mdb1KzsbXbmqfceuu-AA46yaVHmCpJYdqrjoSBowWWLIwQSB6fkALhQYp3h2hsgJ13bhFnTewZHRdFxmFudXQiGbjWPuP4EHf9xgSl617vVB6-Z_9x3HVr9I12WV1b9d9_rrlFGjvxvnUYN0c1SVNaNbh2KPBTvqvlyaHJdqVOAhPdPbArfWwMaTCFkzs5vZUBXYE3wTFZyCKFd7JhOyK01Pgr-Gf9cwg4JiDFKUL3WzFoYiIIga78RN_O83KIfqOJ-PLcHDPBLpsjJUzkapsiXD5YnULH327CpwYkf11vtV-YfbfDeo2sqdIuWOltb3oTtzA9LPXDr6LBTRaLpAVXGZWMD_F4PyEiidwXpHQ_1Jrv_NhmYvsyv-srxHdDdJpJVo6F8TbdqTU2muTpZ3jqbbpdFJdsuJJFOEUDKrzzxDWJbyWfa-SXlPv4Unc-lFXDC3Oktz88ZwtuOD-0uRUVSktyVsbX_uHZRRmUfWsUOSffWt0NlI6or-k6buDd_9wJusb-NotqYy_hX_F8EwpFOjzoGWkQQGLRUVApiQ9rrOL2I2GwpB4wG-OBcM5n4gqBWZAszyaEfggOprQqJgJPz0d_eRluMik0eHq20xiqWY2QaxBIxRjqbcPbFfyg8536S6IgS_cfJptImYXIQ5oT5-GFYZaFsdEbTxJ0ax_cLND6mtS1K2PzsDC20AkaaSILWdVuyHdNxOhlMmfo6RpnPpyJn_Njgaer3SSzdYUEFUcgTEyYN1GMqf9pCSiYzeL0TeTHt8rzQ5lW43RELCliTVT9neAB6HMQ1Rt1cCZDROzTyao60wlQ6d4F36G7tOIktTbj9tVqDcYp-lwXsODeFqRrZmQopQaBrPQTv7G_r8MJLKzIjKYoIoGx7OH0hBDgIjD1zare5elCo_e0oUid0_u0AqamgJgD-t5znGKEynrQGtqlWL1IF1Gkxe5HIlJzzeEbl3EIo6q9LgYXw2SBLwqMABH11KhJF3bQm0kXXhZwI0pfW9b77HiaH2_Napr0CgrVzMkwKmsxtuffn7bMLbIPEanUgaYxu25j7L1F20o1uSyaZxcqVM8aT0gc5x83EvfJo_vHGGEpbdaNp-ygcBNu8gIs3kEXEXa3w5cNrvhzoUkKzw20swJ0naQLShiRt3N5-OTywWGJQpbHxgg8kgk9KRLOexec9peOsbzEGpXfl5JVFZWvFNfuyj3PodqGZmUg6-f7JDsdchZUJAxh7pD9_2xQZPBe3fseDCuWfYr4rl4R_jAYUmRb62-hFVNKfPfC3vCmtav027Z-PfuJWscEq-YP8EMak2eeWJqjy92R-6tVEopjdMnXdlIAW6Wu7m4FgAtW5BjarwT_L_f09UZgVrbk_3uPAEzEWDMxnxMOr8PuA_CbqsC4M519NQPKs-Mim5byx4S-uMsAPEF3BrLmgOIvBGby10q1eXk_lYx-Ot0Xk63PrhqGPz_f3Pzhdd4q4OfdqQN8ZZBD&vidpl=%5BAUPLC%5D&bdid=2&i=DISPJS&ver=8554&imp=998c27a61766406195b9040ad2945ded",
+        "status": 204
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-DWCCJLKX3X&gtm=45je5940v884918195za200zd884918195&_p=1757353584813&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&dma=0&tcfd=10000&cid=2131079068.1645179472&ul=en-in&sr=1249x703&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEIAAAQ&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~115489982&sid=1757353469&sct=335&seg=1&dl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcomputer-science-fundamentals%2Fprogramming-language-tutorials%2F&dr=https%3A%2F%2Fwww.geeksforgeeks.org%2Fuser%2Fnamankabadi50%2F&dt=Programming%20Languages%20Tutorials%20-%20GeeksforGeeks&_s=3&tfd=10014",
+        "status": 204
+      },
+      {
+        "url": "https://token.rubiconproject.com/khaos.json?us_privacy=1---&khaos=LBEXWU9O-Y-J6GL",
+        "status": 200
+      },
+      {
+        "url": "https://token.rubiconproject.com/khaos.json?us_privacy=1---&khaos=LBEXWU9O-Y-J6GL",
+        "status": 200
+      },
+      {
+        "url": "https://token.rubiconproject.com/khaos.json?us_privacy=1---&khaos=LBEXWU9O-Y-J6GL",
+        "status": 200
+      }
+    ],
+    "errors": {
+      "403": 39
+    },
+    "redirects": [
+      {
+        "url": "https://gumi.criteo.com/sid/json?origin=publishertagids&domain=geeksforgeeks.org&sn=ChromeSyncframe&so=3&topUrl=www.geeksforgeeks.org&bundle=hS0ASV9ZVG5qNHAlMkZUJTJCVUs4aFAlMkZRRXU5aWpCRG1OckI2eW5zOU1ySTNtaDF2a1ZlbjlvTWRwNUpqJTJGbE9PMDNiUW8lMkYlMkJjRVFOUUxDelBCUEhMSzN6dXBzeE5SVnFGZzlQN0RYbDY5SnUyb2piME40dUFvOGJHeWdqY1RwajQxcW5GTXJmNjN0U0o1VDVzeSUyQmNkNXdCUTNCN0pBMkIzQTlnMlR0TFUyYTBFN2c1bUt6USUzRA&topicsavail=1&fledgeavail=1",
+        "status": 302
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-SZ454CLTZM&gtm=45je5940v885296220z8838943698za200zb838943698zd838943698&_p=1757353529667&_gaz=1&gcs=G111&gcd=13v3v3_3t5l1&npa=0&dma=0&cid=2131079068.1645179472&ecid=1401907474&ul=en-in&sr=1249x703&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=a&_prs=ok&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105426769~105426771&sid=1757353530&sct=27&seg=0&dl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcourses%2Fdsa-self-paced&dr=https%3A%2F%2Fwww.geeksforgeeks.org%2Fdsa%2Fdsa-tutorial-learn-data-structures-and-algorithms%2F&dt=Data%20Structures%20and%20Algorithms%20-%20Self%20Paced%20%5BOnline%20Course%5D&_tu=CA&en=page_view&_ss=1&_c=1&tfd=1709",
+        "status": 302
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927.key",
+        "status": 304
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927.key",
+        "status": 304
+      },
+      {
+        "url": "https://cdnvideos.geeksforgeeks.org/hls/7e5ff7f13a68cd86ddaeda5cfcb166b0gfg-MasterDSATodayandbetheMastersofTomorrow120230516203927.key",
+        "status": 304
+      }
+    ],
+    "caching": {
+      "cacheable": 112,
+      "hits_304": 3,
+      "misses_200": 109,
+      "hit_ratio": 0.026785714285714284
+    },
+    "compression": {
+      "compressible_requests": 156,
+      "compression_ratio": 0.6995515695067265
+    },
+    "performance": {
+      "avg_ttfb_ms": 210.99812107623114,
+      "est_page_load_ms": 356.20548430491266
+    },
+    "third_party_requests": {
+      "cdnvideos.geeksforgeeks.org": 29,
+      "pagead2.googlesyndication.com": 22,
+      "fundingchoicesmessages.google.com": 14,
+      "utilapi.geeksforgeeks.org": 13,
+      "analytics.google.com": 11,
+      "practiceapi.geeksforgeeks.org": 10,
+      "y.clarity.ms": 7,
+      "securepubads.g.doubleclick.net": 6,
+      "notificationsapi.geeksforgeeks.org": 5,
+      "authapi.geeksforgeeks.org": 4,
+      "ittr-asia.eskimi.com": 4,
+      "px.ads.linkedin.com": 4,
+      "c.amazon-adsystem.com": 4,
+      "id5-sync.com": 4,
+      "rtb.linkedin.com": 3,
+      "assets.geeksforgeeks.org": 3,
+      "token.rubiconproject.com": 3,
+      "image6.pubmatic.com": 2,
+      "cdn.jsdelivr.net": 2,
+      "ipv6.6sc.co": 2,
+      "www.google-analytics.com": 2,
+      "lb.eu-1-id5-sync.com": 2,
+      "www.googletagservices.com": 2,
+      "adapi.geeksforgeeks.org": 2,
+      "www.google.com": 2,
+      "aax.amazon-adsystem.com": 1,
+      "prebid.adnxs.com": 1,
+      "tps-dn-ae1.doubleverify.com": 1,
+      "lbs.eu-1-id5-sync.com": 1,
+      "rtb-us-west.linkedin.com": 1,
+      "ep1.adtrafficquality.google": 1,
+      "hbopenbid.pubmatic.com": 1,
+      "htlb.casalemedia.com": 1,
+      "rtb.openx.net": 1,
+      "gumi.criteo.com": 1,
+      "direct.adsrvr.org": 1,
+      "prod.uidapi.com": 1,
+      "ads.servenobid.com": 1,
+      "artechnology-prebid.attekmi.com": 1,
+      "communityapi.geeksforgeeks.org": 1,
+      "mug.criteo.com": 1,
+      "ib.adnxs.com": 1
+    },
+    "api_requests": {
+      "total_api_requests": 64,
+      "passed": 64,
+      "failed": 0,
+      "failures": []
+    }
+  }
+}
