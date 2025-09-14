@@ -33,6 +33,12 @@ It consists of:
 ### 2. Go to root directory using cd command in command promt
 ### 3. Install Necessary packages
  ### pip install -r requirements.txt
+
+### Please create a new folder in the root directory with name .streamlit and create a secrets.toml file where you need to add Hugging Face Secrets  like shown below and save the changes.
+MCP_SERVER_URL = "http://127.0.0.1:8006"
+HF_Token = "YOUR SECRET TOKEN"
+
+ 
 ### 4. Start the MCP Server Backend using below command:
 
   ### uvicorn mcp_har_server:app --host 127.0.0.1 --port 8006 --reload
