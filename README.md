@@ -30,7 +30,7 @@ It consists of:
 ## 🛠️ Setup
 
 ### 1. Clone this repo
-### 2. Go to root directory using cd 
+### 2. Go to root directory using cd command in command promt
 ### 3. Install Necessary packages
  ### pip install -r requirements.txt
 ### 4. Start the MCP Server Backend using below command:
