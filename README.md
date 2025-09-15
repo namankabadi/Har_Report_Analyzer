@@ -67,6 +67,7 @@ HF_Token = "YOUR SECRET TOKEN"
 **streamlit run MCP_Inspector.py**
 
 
+**------------------------------**
 
 
 
